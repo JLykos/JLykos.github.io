@@ -1,0 +1,16 @@
+<!-- Replace the email with your own formspree email -->
+<form action="https://formspree.io/{{ site.formspree_email }}" method="POST" >
+    <div class="form-group">
+      <label for="contact_form_name"> Su nombre :</label>
+      <input type="text" class="form-control" name="name" id="contact_form_name" placeholder="Nombre">
+     </div>
+     <div class="form-group">
+       <label for="contact_form_email"> Su email :</label>
+      <input type="email" class="form-control" name="_replyto" id="contact_form_email" placeholder="Email">
+     </div>
+     <div class="form-group">
+       <label for="contact_form_message"> Su mensaje :</label>
+      <textarea name="_message" class="form-control" id="contact_form_message" placeholder="Escriba el mensaje."></textarea>
+     </div>
+      <button type="submit" value="Send" class="btn btn-lg btn-dark">Enviar</button>
+ </form>

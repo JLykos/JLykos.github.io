@@ -1,0 +1,143 @@
+title: Julio Díaz
+subtitle: Pagina web personal
+description: Pagina personal para usos multiples
+url: 'https://jlykos.github.io/'
+baseurl: ''
+urls:
+  - text: Sobre mi
+    url: /about
+  - text: Blog
+    url: /blog
+  - text: Galería
+    url: /gallery
+  - text: Contactame
+    url: /contact
+author_logo: profile.png
+author: Julio Díaz
+author_bio: >-
+  Hola, mi nombre es Julio Díaz y soy estudiante de la carrera Ing. Mecatrónica
+  en la Universidad Nacional Experimental Politécnica "Antonio José de Sucre".
+  Soy miembro activo del Club de Investigación e Innovación Mecatrónica (CIIM) 
+  y forme parte del Sistema Nacional de Orquestas y Coros Juveniles e Infantiles
+  de Venezuela por mas de 10 años.
+author_email: juliocdiazo41@gmail.com
+author_location: Venezuela
+author_website_url: 'http://jlykos.github.io'
+typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
+author_work_experiences:
+  - company_name: Autonomo
+    company_logo: profile.png
+    company_url: 'https://jlykos.github.io'
+    designation: Presidente
+    description: null
+    visibility: true
+  - company_name: UNEXPO
+    company_logo: UNEXPO.png
+    company_url: 'http://www.unexpo.edu.ve/'
+    designation: Ayudante Técnico de laboratorio
+    description: null
+    visibility: true
+  - company_name: Fundación Musical Simón Bolívar
+    company_logo: FUNDAMUSICAL.png
+    company_url: 'https://fundamusical.org.ve/'
+    designation: Tallerista
+    description: Teoría musical y orquesta de flauta dulce con niños entre 5 y 13 años.
+    visibility: true
+author_education_details:
+  - college_logo: UNEXPO.png
+    college_name: Universidad Nacional Experimental Politécnica "Antonio José de Sucre"
+    college_url: 'http://www.unexpo.edu.ve/'
+    college_degree: Ingeniero
+    description: Ingeniería Mecatrónica
+    visibility: true
+  - college_logo: fundauc.gif
+    college_name: Fundación Universidad de Carabobo
+    college_url: 'http://www.uc.edu.ve/univ_dep_fundauc.php'
+    college_degree: Aprobación
+    description: 8vo libro
+    visibility: true
+author_project_details:
+  - project_thumbnail: Llenadora.png
+    project_title: Sistema de llenado
+    project_description: >-
+      Sistema con banda transportadora para el llenado automático de envases
+      según configuración inicial mediante interfaz simple.
+    project_url: ''
+    visibility: true
+  - project_thumbnail: SOFIA.png
+    project_title: S.O.F.I.A.
+    project_description: Solo Otra Funcional Inteligencia Artificial para uso personal.
+    project_url: 'https://t.me/SOFIA_justmybot'
+    visibility: true
+  - project_thumbnail: Baymax.png
+    project_title: Baymax.app
+    project_description: >-
+      Asistente medico personal para la dosificacion y dispensacion de farmacos
+      solidos a personas de la tercera edad.
+    project_url: ''
+    visibility: true
+  - project_thumbnail: SIQRU.png
+    project_title: SIQRU
+    project_description: >-
+      Sistema de Identificación por QR para Universidades desarrollado para la
+      UNEXPO en su actividad de Universidades Innovan llevada a cabo por StartUp
+      Venezuela
+    project_url: ''
+    visibility: true
+twitter_username: julio37diaz
+github_username: JLykos
+facebook_username: DarthStark
+linkedin_username: juliodiazortiz
+behance_username: null
+instagram_username: julio37diaz
+medium_username: null
+telegram_username: DarthStark
+dribbble_username: null
+flickr_username: null
+hyvor_talk_website_id: 922
+wakatime_username: DarthStark
+mailchimp_form_url: >-
+  https://github.us10.list-manage.com/subscribe?u=a5c14477d27cdfe64716c5d98&id=3dc178ea35
+formspree_email: julioortiz01@hotmail.com
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+show_author_work_experiences: true
+show_author_education_details: true
+show_author_project_details: true
+algolia:
+  application_id: WW46ZH3SF2
+  index_name: blog_post
+  files_to_exclude: []
+  nodes_to_index: article
+  search_only_api_key: b4c88d9daed0eeb88d1e59436c5a63a9
+paginate: 4
+per_page: 4
+paginate_path: '/blog/page/:num/'
+collections:
+  - products
+defaults:
+  - scope:
+      path: gallery
+    values:
+      permalink: '/:path/:basename:output_ext'
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-algolia
+  - jekyll-menus
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+destination: _site

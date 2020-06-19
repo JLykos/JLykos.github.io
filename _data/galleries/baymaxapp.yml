@@ -1,0 +1,23 @@
+picture_path: baymaxapp
+preview:
+  filename: 1
+  original: 1.png
+  sizes:
+  - 1.png
+  thumbnail: 1-thumbnail.png
+pictures:
+- filename: 1
+  original: 1.png
+  sizes:
+  - 1.png
+  thumbnail: 1-thumbnail.png
+- filename: 2
+  original: 2.png
+  sizes:
+  - 2.png
+  thumbnail: 2-thumbnail.png
+- filename: 3
+  original: 3.png
+  sizes:
+  - 3.png
+  thumbnail: 3-thumbnail.png
