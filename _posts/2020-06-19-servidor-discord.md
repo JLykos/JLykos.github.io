@@ -2,7 +2,7 @@
 layout: post
 author: Julio Díaz
 title: Servidor Discord
-date: 2020-06-19 10:21:11
+date: 2020-06-19T10:21:11.000Z
 thumbnail: /assets/img/posts/discord-logo.jpg
 category: Discord
 summary: Creación y configuración de un servidor Discord.
@@ -21,7 +21,8 @@ Discord es una plataforma social cuya función es la creación de grupos de chat
 Lo primero que deberas hacer para registrarte sera entra a la [web de Discord](https://discord.com/) y pulsar en *"Iniciar sesión"*.
 
 {: style="text-align:center"}
-![web-discord.png](/assets/img/posts/discord-web.png){:height="auto" width="auto"}
+![web-discord.png](/assets/img/posts/discord-web.png)
+{: .img-fluid}
 
 {: style="text-align:justify"}
 Una nueva ventana emergente aparecerá y, en la sección inferior, debes ingresar al vinculo para registrarte. Si quieres saltarte todo esto, solo ingresa a este [link](https://discord.com/register) donde deberás ingresar tu correo electronico, un usuario y una contraseña que desees para tu cuenta.
