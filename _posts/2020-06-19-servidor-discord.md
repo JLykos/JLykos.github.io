@@ -89,14 +89,13 @@ Al finalizar, pulsando el boton "Crear", te encontraras en el canal por defecto 
 En este momento estaremos en la primera opción, la vista general, donde podremos cambiar el nombre, logo e incluso la región del servidor. Ademas, podemos ajustar el un canal AFK (Canal de voz) al cual serán desplazados, de forma automática, aquellos usuarios que tengan un tiempo ajustable de inactividad en otro canal de voz, cambiar o deshabilitar los mensajes del sistema (bienvenidas y mejoras) y ajustar las notificaciones predeterminadas a "solo menciones" para **evitar desastres** como lo mostrado en el siguiente video:
 
 {: .video_container}
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zGl796352RI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Configuracion servidor](/assets/img/gallery/discord/confserver.png){: .img-fluid}
 ![Configuracion servidor 2](/assets/img/gallery/discord/confserver2.png){: .img-fluid}
 
 {: style="text-align:justify"}
-Bien, por el momento nos saltaremos algunos puntos que requieren mayor atención para ir a la sección "moderación", donde podremos asignar el nivel de "seguridad" que tendrá nuestro servidor Discord en cuanto a ingreso de nuevos miembros, analisis de contenido multimedia y requisitos para moderadores del servidor (recomendado para servidores grandes).
+Bien, por el momento nos saltaremos algunos puntos que requieren mayor atención para ir a la sección "moderación", donde podremos asignar el nivel de "seguridad" que tendrá nuestro servidor Discord en cuanto a ingreso de nuevos miembros, análisis de contenido multimedia y requisitos para moderadores del servidor (recomendado para servidores grandes).
 
 ![Moderacion](/assets/img/gallery/discord/moderacion.png){: .img-fluid}
 
@@ -160,7 +159,7 @@ Otro punto tan importante como los roles, y dependiente de ellos, son las catego
 Para crear una categoría o canal solo debemos hacer uso del pop-up que nos arroja la aplicación al pulsar sobre el nombre de nuestro servidor y seleccionar la opción de preferencia; existe una gran ventaja al crear categorías para alojar los canales, se trata de una opción de sincronización que permite al canal heredar todos los permisos de su categoría padre.
 
 {: style="text-align:justify"}
-Cuando creamos una nueva categoría o canal, es posible asignar permisos de visibilidad al deslizar la opción "🔒 Categoría privada" o "🔒 Canal privada" y de forma inmediata tendrás que seleccionar los roles que tendrán acceso a esta categoría/canal; la única diferencia entre crear canales y categorías es que el primero de ellos tiene un par de opciones para elegir, "Canal de texto" o "Canal de voz".
+Cuando creamos una nueva categoría o canal, es posible asignar permisos de visibilidad al deslizar la opción "🔒 Categoría privada" o "🔒 Canal privado" y de forma inmediata tendrás que seleccionar los roles que tendrán acceso a esta categoría/canal; la única diferencia entre crear canales y categorías es que el primero de ellos tiene un par de opciones para elegir, "Canal de texto" o "Canal de voz".
 
 {: style="text-align:justify"}
 Se que ha sido un post bastante largo pero intente resumir la información mas relevante en cuanto al manejo de Servidores Discord; cualquier duda o comentario pueden dejarla en el cajón de abajo 👇👇👇.
