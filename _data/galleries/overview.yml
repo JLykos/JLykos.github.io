@@ -1,12 +1,12 @@
 -
-  title: Mountains
-  directory: mountains
+  title: Discord
+  directory: discord
   preview:
-    filename: 1.jpg
-    original: 1-thumbnail.jpg
+    filename: ajustesusuario-micuenta.png
+    original: ajustesusuario-micuenta-thumbnail.png
     sizes:
-    - 1-thumbnail.jpg
-    thumbnail: 1-thumbnail.jpg
+    - ajustesusuario-micuenta-thumbnail.png
+    thumbnail: ajustesusuario-micuenta-thumbnail.png
 -
   title: Baymax
   directory: baymaxapp
