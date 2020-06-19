@@ -88,8 +88,11 @@ Al finalizar, pulsando el boton "Crear", te encontraras en el canal por defecto 
 {: style="text-align:justify"}
 En este momento estaremos en la primera opción, la vista general, donde podremos cambiar el nombre, logo e incluso la región del servidor. Ademas, podemos ajustar el un canal AFK (Canal de voz) al cual serán desplazados, de forma automática, aquellos usuarios que tengan un tiempo ajustable de inactividad en otro canal de voz, cambiar o deshabilitar los mensajes del sistema (bienvenidas y mejoras) y ajustar las notificaciones predeterminadas a "solo menciones" para **evitar desastres** como lo mostrado en el siguiente video:
 
-{: .video_container}
+{::options parse_block_html="true" /}
+<figure class="video_container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zGl796352RI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<figure/>
+{::options parse_block_html="false" /}
 
 ![Configuracion servidor](/assets/img/gallery/discord/confserver.png){: .img-fluid}
 ![Configuracion servidor 2](/assets/img/gallery/discord/confserver2.png){: .img-fluid}
