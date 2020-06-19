@@ -19,4 +19,5 @@ Esta llenadora cuenta con un sistema de inicio donde un operario, y solo al inic
 {: style="text-align:justify"}
 El siguiente vídeo muestra un prototipo con materiales reciclados lo cual, aunado a falta de herramientas,  generó fallas en los sistemas automáticos para la entrada y salida de envases llevando al retiro de las partes durante la presentación. Cabe destacar que al usar los materiales y equipo adecuado, el sistema funciona de forma correcta. Ademas, algunos de los sistemas fueron elaborados con materiales de bajo costo para poder armar un equipo lo mas funcional posible, por ello componentes como un sensor ultrasónico fueron sustituidos por materiales mas simples (leds, transistores y resistencias) obteniendo un proceso menos automatizado.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qcPdu4HSLWw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{: .video_container}
+{: .video_container}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qcPdu4HSLWw?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
