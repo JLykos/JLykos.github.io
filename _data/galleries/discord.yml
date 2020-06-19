@@ -1,23 +1,88 @@
 picture_path: discord
 preview:
-  filename: 1
-  original: 1.jpg
+  filename: configuracion de usuario
+  original: ajustesusuario-micuenta.png
   sizes:
-  - 1.jpg
-  thumbnail: 1-thumbnail.jpg
+  - ajustesusuario-micuenta.png
+  thumbnail: ajustesusuario-micuenta-thumbnail.png
 pictures:
-- filename: 1
-  original: 1.jpg
+- filename: configuracion de usuario
+  original: ajustesusuario-micuenta.png
   sizes:
-  - 1.jpg
-  thumbnail: 1-thumbnail.jpg
-- filename: 2
-  original: 2.jpg
+  - ajustesusuario-micuenta.png
+  thumbnail: ajustesusuario-micuenta-thumbnail.png
+- filename: conexiones
+  original: ajustesusuario-conexiones.png
   sizes:
-  - 2.jpg
-  thumbnail: 2-thumbnail.jpg
-- filename: 3
-  original: 3.jpg
+  - ajustesusuario-conexiones.png
+  thumbnail: ajustesusuario-conexiones-thumbnail.png
+- filename: voz y video
+  original: ajustedeapp-vozvideo.png
   sizes:
-  - 3.jpg
-  thumbnail: 3-thumbnail.jpg
+  - ajustedeapp-vozvideo.png
+  thumbnail: ajustedeapp-vozvideo-thumbnail.png
+- filename: añadir servidor
+  original: nuevoserver.png
+  sizes:
+  - nuevoserver.png
+  thumbnail: nuevoserver-thumbnail.png
+- filename: crear servidor
+  original: crearserver.png
+  sizes:
+  - crearserver.png
+  thumbnail: crearserver-thumbnail.png
+- filename: servidor existente
+  original: unirserver.png
+  sizes:
+  - unirserver.png
+  thumbnail: unirserver-thumbnail.png
+- filename: ajuste servidor
+  original: ajusteserver.png
+  sizes:
+  - ajusteserver.png
+  thumbnail: ajusteserver-thumbnail.png
+- filename: Configuracion de servidor 1
+  original: confserver.png
+  sizes:
+  - confserver.png
+  thumbnail: confserver-thumbnail.png
+- filename: Configuracion de servidor 2
+  original: confserver2.png
+  sizes:
+  - confserver2.png
+  thumbnail: confserver2-thumbnail.png
+- filename: Configuracion de servidor (moderacion)
+  original: moderacion.png
+  sizes:
+  - moderacion.png
+  thumbnail: moderacion-thumbnail.png
+- filename: plantilla de servidor
+  original: plantilla.png
+  sizes:
+  - plantilla.png
+  thumbnail: plantilla-thumbnail.png
+- filename: roles
+  original: roles.png
+  sizes:
+  - roles.png
+  thumbnail: roles-thumbnail.png
+- filename: roles 2
+  original: roles2.png
+  sizes:
+  - roles2.png
+  thumbnail: roles2-thumbnail.png
+- filename: roles 3
+  original: roles3.png
+  sizes:
+  - roles3.png
+  thumbnail: roles3-thumbnail.png
+- filename: roles 4
+  original: roles4.png
+  sizes:
+  - roles4.png
+  thumbnail: roles4-thumbnail.png
+- filename: roles 5
+  original: roles5.png
+  sizes:
+  - roles5.png
+  thumbnail: roles5-thumbnail.png
