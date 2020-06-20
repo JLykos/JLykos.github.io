@@ -16,6 +16,21 @@ layout: default
          {%- include github_star_button.html -%}
          {%- include github_fork_button.html -%}
     </div>
+
+    {% if site.show_home_slider == true %}
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          {% for slide in site.home_slider %} {% if slide.visibility == true %}
+          <a href="{{slide.slider_url}}">
+            <img src="{{site.url}}{{site.baseurl}}/assets/img/{{slide.slider_logo}}" height="100" width="250" title="{{slide.title}}" />
+          </a>
+          {% endif %} {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
     <div class="col-lg-8 offset-md-2">
       <section id="recent-articles">
         <div id="recent-articles-header">

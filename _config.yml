@@ -1,7 +1,7 @@
 title: Julio Díaz
 subtitle: Pagina web personal
 description: Pagina personal para usos multiples
-url: 'https://jlykos.github.io/'
+url: 'https://jlykos.github.io'
 baseurl: ''
 urls:
   - text: Sobre mi
@@ -22,8 +22,38 @@ author_bio: >-
   de Venezuela por mas de 10 años.
 author_email: juliocdiazo41@gmail.com
 author_location: Venezuela
-author_website_url: 'http://jlykos.github.io'
+author_website_url: 'http://jlykos.github.io/plantilla-cv'
+author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
+home_slider:
+  - slider_logo: 
+    title: 
+    slider_url: 
+    visibility: false
+  - slider_logo:  
+    title: 
+    slider_url: 
+    visibility: false
+  - slider_logo: 
+    title: 
+    slider_url: 
+    visibility: false
+  - slider_logo: 
+    title: 
+    slider_url: 
+    visibility: false
+  - slider_logo: 
+    title: 
+    slider_url: 
+    visibility: false
+  - slider_logo: 
+    title: 
+    slider_url: 
+    visibility: false
+  - slider_logo: 
+    title: 
+    slider_url: 
+    visibility: false
 author_work_experiences:
   - company_name: Autonomo
     company_logo: profile.png
@@ -62,12 +92,14 @@ author_project_details:
     project_description: >-
       Sistema con banda transportadora para el llenado automático de envases
       según configuración inicial mediante interfaz simple.
-    project_url: ''
+    project_url: https://www.youtube.com/watch?v=qcPdu4HSLWw
+    url_text: Video
     visibility: true
   - project_thumbnail: SOFIA.png
     project_title: S.O.F.I.A.
     project_description: Solo Otra Funcional Inteligencia Artificial para uso personal.
     project_url: 'https://t.me/SOFIA_justmybot'
+    url_text: Chat
     visibility: true
   - project_thumbnail: Baymax.png
     project_title: Baymax.app
@@ -75,6 +107,7 @@ author_project_details:
       Asistente medico personal para la dosificacion y dispensacion de farmacos
       solidos a personas de la tercera edad.
     project_url: ''
+    url_text: 
     visibility: true
   - project_thumbnail: SIQRU.png
     project_title: SIQRU
@@ -83,6 +116,7 @@ author_project_details:
       UNEXPO en su actividad de Universidades Innovan llevada a cabo por StartUp
       Venezuela
     project_url: ''
+    url_text: 
     visibility: true
 twitter_username: julio37diaz
 github_username: JLykos
@@ -105,6 +139,7 @@ permalink: pretty
 show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
+show_home_slider: false
 algolia:
   application_id: WW46ZH3SF2
   index_name: blog_post
