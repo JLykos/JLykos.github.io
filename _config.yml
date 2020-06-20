@@ -2,7 +2,7 @@ title: Julio Díaz
 subtitle: Pagina web personal
 description: Pagina personal para usos multiples
 url: 'https://jlykos.github.io'
-baseurl: ''
+baseurl: 
 urls:
   - text: Sobre mi
     url: /about
