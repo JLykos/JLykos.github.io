@@ -2,7 +2,7 @@
 title: Servidor Discord
 layout: post
 author: Julio Díaz
-date: '2020-06-19 21:51:13 +0000'
+date: '2020-06-19 21:24:23'
 thumbnail: "/assets/img/posts/discord-logo.jpg"
 category: Discord
 summary: Creación y configuración de un servidor Discord.
@@ -10,6 +10,11 @@ summary: Creación y configuración de un servidor Discord.
 
 {: style="text-align:justify"}
 Seamos sinceros, existe una gran cantidad de herramientas que cumplen con los servicios de videollamadas pero solo uno de ellos ha ganado gran popularidad en los últimos tiempos, también es de los que más ha mejorado en cuanto a opciones se refiere. Hablamos de Discord, una plataforma con poquísimas restricciones que va mucho más allá de un simple servicio de videollamadas y chats.
+
+# Indice
+{: .no_toc}
+1. TOC
+{:toc}
 
 # ¿Qué es Discord?
 
@@ -121,7 +126,7 @@ Al finalizar, pulsando el boton "Crear", te encontraras en el canal por defecto 
 #### Configurando
 
 {: style="text-align:justify"}
-En este momento estaremos en la primera opción, la vista general, donde podremos cambiar el nombre, logo e incluso la región del servidor. Ademas, podemos ajustar el un canal AFK (Canal de voz) al cual serán desplazados, de forma automática, aquellos usuarios que tengan un tiempo ajustable de inactividad en otro canal de voz, cambiar o deshabilitar los mensajes del sistema (bienvenidas y mejoras) y ajustar las notificaciones predeterminadas a "solo menciones" para **evitar desastres** como lo mostrado en el siguiente {::options parse_block_html="true" /} <a href="https://www.youtube.com/embed/zGl796352RI?rel=0&amp;controls=0&amp;showinfo=0&amp;disablekb=0&amp;modestbranding=0" data-toggle="lightbox">video</a>: {::options parse_block_html="false" /}
+En este momento estaremos en la primera opción, la vista general, donde podremos cambiar el nombre, logo e incluso la región del servidor. Ademas, podemos ajustar el un canal AFK (Canal de voz) al cual serán desplazados, de forma automática, aquellos usuarios que tengan un tiempo ajustable de inactividad en otro canal de voz, cambiar o deshabilitar los mensajes del sistema (bienvenidas y mejoras) y ajustar las notificaciones predeterminadas a "solo menciones" para **evitar desastres** como {::options parse_block_html="true" /} <a href="https://www.youtube.com/embed/zGl796352RI?rel=0&amp;controls=0&amp;showinfo=0&amp;disablekb=0&amp;modestbranding=0" data-toggle="lightbox">este</a>. {::options parse_block_html="false" /}
 
 {::options parse_block_html="true" /}
 <a href="/assets/img/gallery/discord/confserver.png" data-toggle="lightbox">
@@ -218,6 +223,8 @@ Para terminar con los roles, tenemos los permisos de voz que se muestran en la f
     <img src="/assets/img/gallery/discord/roles5.png" class="img-fluid">
 </a>
 {::options parse_block_html="false" /}
+
+##### Creación de Canales y Categorías
 
 {: style="text-align:justify"}
 Otro punto tan importante como los roles, y dependiente de ellos, son las categorías donde podremos alojar un sin fin de canales de texto o de voz. No esta demás mencionar que los canales no pueden ser mixtos aunque puedes entrar a canales de texto mientras estés conectado a un canal de voz.
