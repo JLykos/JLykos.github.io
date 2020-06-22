@@ -1,9 +1,9 @@
 ---
-title: Servidor Discord
 layout: post
 author: Julio Díaz
-date: '2020-06-19 21:24:23'
-thumbnail: "/assets/img/posts/discord-logo.jpg"
+title: Servidor Discord
+date: 2020-06-19 21:24:23
+thumbnail: /assets/img/posts/discord-logo.jpg
 category: Discord
 summary: Creación y configuración de un servidor Discord.
 ---
@@ -90,17 +90,21 @@ Cuando estamos en la pantalla de inicio, justo en la barra lateral en la izquier
 <a href="https://i.blogs.es/b0909e/anadir-servidor/1366_2000.jpg" data-toggle="lightbox">
     <img src="https://i.blogs.es/b0909e/anadir-servidor/1366_2000.jpg" class="img-fluid">
 </a>
-<a href="/assets/img/gallery/discord/nuevoserver.png" data-toggle="lightbox">
-    <img src="/assets/img/gallery/discord/nuevoserver.png" class="img-fluid">
-</a>
+<p style="text-align:center">
+    <a href="/assets/img/gallery/discord/nuevoserver.png" data-toggle="lightbox">
+        <img src="/assets/img/gallery/discord/nuevoserver.png" class="img-fluid">
+    </a>
+</p>
 {::options parse_block_html="false" /}
 
 En caso de seleccionar la opción para unirse a un servidor, un cuadro de texto solicitara el link de invitación o tan solo la extensión de la invitación.
 
 {::options parse_block_html="true" /}
-<a href="/assets/img/gallery/discord/unirserver.png" data-toggle="lightbox">
-    <img src="/assets/img/gallery/discord/unirserver.png" class="img-fluid">
-</a>
+<p style="text-align:center">
+    <a href="/assets/img/gallery/discord/unirserver.png" data-toggle="lightbox">
+        <img src="/assets/img/gallery/discord/unirserver.png" class="img-fluid">
+    </a>
+</p>
 {::options parse_block_html="false" /}
 
 ### Creando el servidor propio {#config}
@@ -118,9 +122,11 @@ Si elijes crear un servidor, necesitas configurar las variables mínimas de inic
 Al finalizar, pulsando el boton "Crear", te encontraras en el canal por defecto de tu nuevo servidor. Es hora de comenzar a configurar, pulsamos el nombre de nuestro servidor en la parte superior de la barra lateral para desplegar un pop-up con distintas opciones donde seleccionaremos *"ajustes de servidor"*.
 
 {::options parse_block_html="true" /}
-<a href="/assets/img/gallery/discord/ajusteserver.png" data-toggle="lightbox">
-    <img src="/assets/img/gallery/discord/ajusteserver.png" class="img-fluid">
-</a>
+<p style="text-align:center">
+    <a href="/assets/img/gallery/discord/ajusteserver.png" data-toggle="lightbox">
+        <img src="/assets/img/gallery/discord/ajusteserver.png" class="img-fluid">
+    </a>
+</p>
 {::options parse_block_html="false" /}
 
 #### Configurando
