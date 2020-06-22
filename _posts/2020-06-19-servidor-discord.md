@@ -2,7 +2,7 @@
 layout: post
 author: Julio Díaz
 title: Servidor Discord
-date: 2020-06-19 21:24:23
+date: 2020-06-19T21:24:23.000Z
 thumbnail: /assets/img/posts/discord-logo.jpg
 category: Discord
 summary: Creación y configuración de un servidor Discord.
@@ -113,9 +113,11 @@ En caso de seleccionar la opción para unirse a un servidor, un cuadro de texto 
 Si elijes crear un servidor, necesitas configurar las variables mínimas de inicio como el nombre y el logo del servidor (pueden cambiarse en el futuro).
 
 {::options parse_block_html="true" /}
-<a href="/assets/img/gallery/discord/crearserver.png" data-toggle="lightbox">
-    <img src="/assets/img/gallery/discord/crearserver.png" class="img-fluid">
-</a>
+<p style="text-align:center">
+    <a href="/assets/img/gallery/discord/crearserver.png" data-toggle="lightbox">
+        <img src="/assets/img/gallery/discord/crearserver.png" class="img-fluid">
+    </a>
+</p>
 {::options parse_block_html="false" /}
 
 {: style="text-align:justify"}
