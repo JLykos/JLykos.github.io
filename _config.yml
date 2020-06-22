@@ -9,9 +9,9 @@ urls:
   - text: Blog
     url: /blog
   - text: Galería
-    url: /gallery
+    url: /galeria
   - text: Contactame
-    url: /contact
+    url: /contacto
 author_logo: profile.png
 author: Julio Díaz
 author_bio: >-
