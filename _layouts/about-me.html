@@ -10,8 +10,9 @@ layout: default
       </a>
       <h1 class="profile-name">{{ site.title }}</h1>
       <p class="profile-bio" style="position: 50%;">{{ site.subtitle }}</p>
-      {% if site.twitter_username %} {%- include twitter_follow_button.html -%} {%
-      endif %}
+      {% if site.twitter_username %}
+      <p style="text-align: center;">{%- include twitter_follow_button.html -%}</p>
+      {% endif %}
 
       <p class="profile-links">
         {% if site.twitter_username %}
