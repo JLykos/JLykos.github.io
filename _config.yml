@@ -26,62 +26,62 @@ author_website_url: 'http://jlykos.github.io/plantilla-cv'
 author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
 home_slider:
-  - logo: 6.jpg
+  - logo: analisis-y-diseño-de-circuitos.jpg
     title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
     url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
     visibility: true
-  - logo: 1.jpg
+  - logo: introduccion-a-git-y-github.jpg
     title: Introduccion a Git y Github
     url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
     visibility: true
-  - logo: 2.png
+  - logo: introduccion-a-iot.png
     title: Introduccion a IoT
-    url: /assets/img/2.png
+    url: /assets/img/certificados/introduccion-a-iot.png
     visibility: true
-  - logo: 3.png
+  - logo: diseñador-de-circuitos-impresos.png
+    title: Diseñador de circuitos impresos
+    url: /assets/img/certificados/diseñador-de-circuitos-impresos.png
+    visibility: true
+  - logo: programador-de-microordenadores.png
+    title: Programador de microordenadores
+    url: /assets/img/certificados/programador-de-microordenadores.png
+    visibility: true
+  - logo: universidads-innovan.png
     title: Universidades Innovan
-    url: /assets/img/3.png
+    url: /assets/img/certificados/universidads-innovan.png
     visibility: true
-  - logo: 4.png
+  - logo: software-development-fundamentals.png
     title: Software Development Fundamentals
-    url: /assets/img/4.png
+    url: /assets/img/certificados/software-development-fundamentals.png
     visibility: true
-  - logo: 5.png
+  - logo: best-practices-prepare-for-mta-students.png
     title: Best practices - prepare for MTA students
-    url: /assets/img/5.png
+    url: /assets/img/certificados/best-practices-prepare-for-mta-students.png
     visibility: true
-  - logo: 6.jpg
-    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
-    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
+  - logo: electronica.jpg
+    title: Electronica
+    url: /assets/img/certificados/electronica.jpg
     visibility: true
-  - logo: 1.jpg
-    title: Introduccion a Git y Github
-    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
+  - logo: Reparacion-de-celulares.jpg
+    title: Reparacion de celulares
+    url: /assets/img/certificados/Reparacion-de-celulares.jpg
     visibility: true
-  - logo: 2.png
-    title: Introduccion a IoT
-    url: /assets/img/2.png
-    visibility: true
-  - logo: 3.png
-    title: Universidades Innovan
-    url: /assets/img/3.png
-    visibility: true
-  - logo: 4.png
-    title: Software Development Fundamentals
-    url: /assets/img/4.png
-    visibility: true
-  - logo: 5.png
-    title: Best practices - prepare for MTA students
-    url: /assets/img/5.png
-    visibility: true
-  - logo: 6.jpg
-    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
-    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
-    visibility: true
-  - logo: 1.jpg
-    title: Introduccion a Git y Github
-    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
-    visibility: true        
+  - logo: 
+    title: 
+    url: 
+    visibility: false
+  - logo: 
+    title: 
+    url: 
+    visibility: false
+  - logo: 
+    title: 
+    url: 
+    visibility: false
+  - logo: 
+    title: 
+    url: 
+    visibility: false        
 author_work_experiences:
   - company_name: Autonomo
     company_logo: profile.png
