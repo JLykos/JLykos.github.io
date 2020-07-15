@@ -66,22 +66,22 @@ home_slider:
     title: Reparacion de celulares
     url: /assets/img/certificados/Reparacion-de-celulares.jpg
     visibility: true
-  - logo: 
-    title: 
-    url: 
-    visibility: false
-  - logo: 
-    title: 
-    url: 
-    visibility: false
-  - logo: 
-    title: 
-    url: 
-    visibility: false
-  - logo: 
-    title: 
-    url: 
-    visibility: false        
+  - logo: analisis-y-diseño-de-circuitos.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
+    visibility: true
+  - logo: introduccion-a-git-y-github.jpg
+    title: Introduccion a Git y Github
+    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
+    visibility: true
+  - logo: introduccion-a-iot.png
+    title: Introduccion a IoT
+    url: /assets/img/certificados/introduccion-a-iot.png
+    visibility: true
+  - logo: diseñador-de-circuitos-impresos.png
+    title: Diseñador de circuitos impresos
+    url: /assets/img/certificados/diseñador-de-circuitos-impresos.png
+    visibility: true       
 author_work_experiences:
   - company_name: Autonomo
     company_logo: profile.png
