@@ -26,9 +26,13 @@ author_website_url: 'http://jlykos.github.io/plantilla-cv'
 author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
 home_slider:
+  - logo: 6.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
+    visibility: true
   - logo: 1.jpg
     title: Introduccion a Git y Github
-    url: https://udemy-certificate.s3.amazonaws.com/image/UC-bcfb0835-5ada-4f85-8f81-80785625a05c.jpg?v=1594768067000
+    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
     visibility: true
   - logo: 2.png
     title: Introduccion a IoT
@@ -46,9 +50,13 @@ home_slider:
     title: Best practices - prepare for MTA students
     url: /assets/img/5.png
     visibility: true
+  - logo: 6.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
+    visibility: true
   - logo: 1.jpg
     title: Introduccion a Git y Github
-    url: https://udemy-certificate.s3.amazonaws.com/image/UC-bcfb0835-5ada-4f85-8f81-80785625a05c.jpg?v=1594768067000
+    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
     visibility: true
   - logo: 2.png
     title: Introduccion a IoT
@@ -66,21 +74,13 @@ home_slider:
     title: Best practices - prepare for MTA students
     url: /assets/img/5.png
     visibility: true
+  - logo: 6.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
+    visibility: true
   - logo: 1.jpg
     title: Introduccion a Git y Github
-    url: https://udemy-certificate.s3.amazonaws.com/image/UC-bcfb0835-5ada-4f85-8f81-80785625a05c.jpg?v=1594768067000
-    visibility: true
-  - logo: 2.png
-    title: Introduccion a IoT
-    url: /assets/img/2.png
-    visibility: true
-  - logo: 3.png
-    title: Universidades Innovan
-    url: /assets/img/3.png
-    visibility: true
-  - logo: 4.png
-    title: Software Development Fundamentals
-    url: /assets/img/4.png
+    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
     visibility: true        
 author_work_experiences:
   - company_name: Autonomo
