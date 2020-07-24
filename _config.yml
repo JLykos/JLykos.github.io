@@ -25,7 +25,11 @@ author_location: Venezuela
 author_website_url: 'http://jlykos.github.io/plantilla-cv'
 author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
-home_slider:
+home_slider: 
+  - logo: sistema-riego-arduino.jpg
+    title: Sistema de riego automático con arduino
+    url: https://www.udemy.com/certificate/UC-aba7d99e-5e08-47db-bcd7-d9db09947c20/
+    visibility: true
   - logo: analisis-y-diseño-de-circuitos.jpg
     title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
     url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
@@ -66,6 +70,10 @@ home_slider:
     title: Reparacion de celulares
     url: /assets/img/certificados/Reparacion-de-celulares.jpg
     visibility: true
+  - logo: sistema-riego-arduino.jpg
+    title: Sistema de riego automático con arduino
+    url: https://www.udemy.com/certificate/UC-aba7d99e-5e08-47db-bcd7-d9db09947c20/
+    visibility: true
   - logo: analisis-y-diseño-de-circuitos.jpg
     title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
     url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
@@ -74,14 +82,6 @@ home_slider:
     title: Introduccion a Git y Github
     url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
     visibility: true
-  - logo: introduccion-a-iot.png
-    title: Introduccion a IoT
-    url: /assets/img/certificados/introduccion-a-iot.png
-    visibility: true
-  - logo: diseñador-de-circuitos-impresos.png
-    title: Diseñador de circuitos impresos
-    url: /assets/img/certificados/diseñador-de-circuitos-impresos.png
-    visibility: true       
 author_work_experiences:
   - company_name: Autonomo
     company_logo: profile.png
