@@ -4,7 +4,7 @@ author: Julio Díaz
 title: Servidor Discord
 date: 2020-06-19T21:24:23.000Z
 thumbnail: /assets/img/posts/discord-logo.jpg
-category: Discord
+category: Software
 summary: Creación y configuración de un servidor Discord.
 ---
 
