@@ -33,7 +33,7 @@ Es un **software** de **simulación** para circuitos electrónicos con funcional
 Les comparto este par de links, uno para cada versión que se encuentra en mi nube personal, para que descarguen la versión que gusten.
 
 1. [Versión 7.7 (No la he usado antes)](https://mega.nz/file/OO5RxDSC#dsv2Uu5GBShdxKLcgFFpK1q_M5hEDl7sbgU8Ex99J8U)
-2. [Versión 8.8 SP1 + Librerías Arduino.](https://www.youtube.com/redirect?event=video_description&v=v_QXdQmXJCw&q=http%3A%2F%2Fwww.mediafire.com%2Ffile%2Fj2yi8vtua8arrcc%2FProteus_8.8_SP1_FULL.rar%2Ffile&redir_token=QUFFLUhqbEFSb281djNKazhxS1dyS0VFNUs0RWswV3VIZ3xBQ3Jtc0trVG5WQ0ZsX0VRZ0MyLTVtYjgwLWZFZ0xQOTJBdW9UcXYwOWlXNnd3OFdfOVNDTm80QkNtdUpVd2JuQlV5czBMYjFlakFoSGVTbERtWGpYM3FFWFN1VHlXTVh2MGFtYTJDUHF3dkhyaUlRR3k4LTVnOA%3D%3D)
+2. [Versión 8.8 SP1 + Librerías Arduino.](http://www.mediafire.com/file/j2yi8vtua8arrcc/Proteus_8.8_SP1_FULL.rar/file)
 
 {: style="text-align:justify"}
 
