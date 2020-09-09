@@ -16,7 +16,10 @@ En este post me dedicare a explicar cómo **descargar e instalar Proteus**, aunq
 {: .no_toc}
 
 1. TOC
-   {:toc}
+
+{:toc}
+
+
 
 # ¿Qué es Proteus?
 
