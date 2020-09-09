@@ -16,10 +16,7 @@ En este post me dedicare a explicar cómo **descargar e instalar Proteus**, aunq
 {: .no_toc}
 
 1. TOC
-
-{:toc}
-
-
+   {:toc}
 
 # ¿Qué es Proteus?
 
@@ -36,17 +33,11 @@ Es un **software** de **simulación** para circuitos electrónicos con funcional
 Les comparto este par de links, uno para cada versión que se encuentra en mi nube personal, para que descarguen la versión que gusten.
 
 1. [Versión 7.7 (No la he usado antes)](https://mega.nz/file/OO5RxDSC#dsv2Uu5GBShdxKLcgFFpK1q_M5hEDl7sbgU8Ex99J8U)
-2. [Versión 8.8 SP1 + Librerías Arduino.](http://www.mediafire.com/file/j2yi8vtua8arrcc/Proteus_8.8_SP1_FULL.rar/file)
+2. [Versión 8.8 SP1 + Librerías Arduino.](https://mega.nz/file/ibp03Y4B#F6qiSDFGCUQkIvakh8t5SPq_JX6W_m0ldtaqyoVA3sc)
 
 {: style="text-align:justify"}
 
-En el momento en que den click a la version de su preferencia, obtendrán una ventana como esta (o la siguiente) y solo deben pulsar el boton de descarga para poder guardarlo en algun lugar de su computador.
-
-{::options parse_block_html="true" /}
-<a href="/assets/img/posts/proteus/mediafire.PNG" data-toggle="lightbox">
-    <img src="/assets/img/posts/proteus/mediafire.PNG" class="img-fluid">
-</a>
-{::options parse_block_html="false" /}
+En el momento en que den click a la version de su preferencia, obtendrán una ventana como esta y solo deben pulsar el boton "*descargar*" para poder guardarlo en algun lugar de su computador.
 
 {::options parse_block_html="true" /}
 <a href="/assets/img/posts/mega-descarga.png" data-toggle="lightbox">
