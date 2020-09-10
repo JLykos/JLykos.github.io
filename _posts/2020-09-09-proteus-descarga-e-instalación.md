@@ -308,9 +308,6 @@ Marca la casilla única y pulsa "Copiar y reemplazar".
 **¡Listo, Proteus sin cierre forzado!**
 
 # Tutorial en video
-
-{::options parse_block_html="true" /}
 <figure class="video_container">
 	<iframe src="https://www.youtube.com/embed/kdiTeH5g5g4?rel=0&amp;controls=0&amp;showinfo=0&amp;disablekb=0&amp;modestbranding=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" width="100%" height="300"></iframe>
 </figure>
-{::options parse_block_html="false" /}
