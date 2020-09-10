@@ -100,9 +100,25 @@ layout: default
       {%- include author_skills.html -%}
     </div>
 
+    {% if site.tusclases_reputacion %}
+    <div class="card">
+      <h1>Valoración</h1>
+
+      {%- include tusclases_reputacion.html -%}
+    </div>
+    {% endif %}
+
+    {% if site.tusclases_perfil %}
+    <div class="card">
+      <h1>Clases Online</h1>
+
+      {%- include tusclases_perfil.html -%}
+    </div>
+    {% endif %}
+
     {% if site.wakatime_username %}
     <div class="card">
-      <h1>Coding Activity</h1>
+      <h1>Actividad en código</h1>
 
       {%- include coding_activity.html -%}
     </div>
