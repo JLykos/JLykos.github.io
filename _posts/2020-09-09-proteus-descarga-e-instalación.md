@@ -11,11 +11,9 @@ summary: ¿Cómo descargar e instalar Proteus sin morir en el intento? Aquí lo 
 En este post me dedicare a explicar cómo **descargar e instalar Proteus**, aunque existen muchos simuladores a nivel electrónico este es de los que posee una **librería suficiente** para realizar distintos circuitos. Ademas, es el simulador que utilizaremos en el Curso de Electrónica Básica.
 
 # Indice
-
 {: .no_toc}
-
 1. TOC
-   {:toc}
+{:toc}
 
 # ¿Qué es Proteus?
 
