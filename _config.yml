@@ -158,8 +158,8 @@ dribbble_username: null
 flickr_username: null
 hyvor_talk_website_id: 922
 wakatime_username: DarthStark
-tusclases_perfil: true
-tusclases_reputacion: true
+tusclases_perfil: false
+tusclases_reputacion: false
 mailchimp_form_url: >-
   https://github.us10.list-manage.com/subscribe?u=a5c14477d27cdfe64716c5d98&id=3dc178ea35
 formspree_email: julioortiz01@hotmail.com
