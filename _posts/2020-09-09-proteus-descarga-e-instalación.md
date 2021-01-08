@@ -11,9 +11,11 @@ summary: ¿Cómo descargar e instalar Proteus sin morir en el intento? Aquí lo 
 En este post me dedicare a explicar cómo **descargar e instalar Proteus**, aunque existen muchos simuladores a nivel electrónico este es de los que posee una **librería suficiente** para realizar distintos circuitos. Ademas, es el simulador que utilizaremos en el Curso de Electrónica Básica.
 
 # Indice
+
 {: .no_toc}
+
 1. TOC
-{:toc}
+   {:toc}
 
 # ¿Qué es Proteus?
 
@@ -82,7 +84,7 @@ Entramos a la carpeta creada tras la descompresión de la versión utilizada y e
 {::options parse_block_html="false" /}
 
 {: style="text-align:justify"}
-Abrirá unaventana y solo comenzaremos a dar next.
+Abrirá una ventana y solo comenzaremos a dar next.
 
 {::options parse_block_html="true" /}
 
@@ -118,7 +120,7 @@ Nada que cambiar y continuamos con next.
 {::options parse_block_html="false" /}
 
 {: style="text-align:justify"}
-En caso de no existir licencia previa, sol damos nex para que salgaa la siguiente ventana donde colocaremos la licencia descargada en el otro archivo descomprimido.
+En caso de no existir licencia previa, solo damos next para que salgaa la siguiente ventana donde colocaremos la licencia descargada en el otro archivo descomprimido.
 
 {::options parse_block_html="true" /}
 
@@ -270,7 +272,7 @@ Ejecutamos ese archivo pegado y podemos abrir ahora el Proteus desde el icono en
 # En caso de que el sistema se cierre solo...
 
 {: style="text-align:justify"}
-Busca esa carpeta de la versión y entra a al directorio llamado "proteus Profesional 8.8 SP1 Crack Fix", copia el par de carpetas y vuelve a buscar el icono en el escritorio para, con click derecho, entrar a la ubicación del archivo.
+Busca la carpeta de la versión y entra al directorio llamado "proteus Profesional 8.8 SP1 Crack Fix", copia el par de carpetas y vuelve a buscar el icono en el escritorio para, con click derecho, entrar a la ubicación del archivo.
 
 {::options parse_block_html="true" /}
 
@@ -330,6 +332,16 @@ Marca la casilla única y pulsa "Copiar y reemplazar".
 
 {: style="text-align:justify"}
 **¡Listo, Proteus sin cierre forzado!**
+
+{: style="text-align:justify"}En algunos casos, esta solución no funciona pero se resuelve con aplicar una instalación personalizada usando la opción "Custom" y solo pulsar siguiente (siempre y cuando el directorio en ambos campos de texto en esta opción sean el mismo).\
+{::options parse_block_html="true" /}
+
+<p style="text-align:center">
+<a href="/assets/img/posts/proteus/14.PNG" data-toggle="lightbox">
+    <img src="/assets/img/posts/proteus/14.PNG" class="img-fluid">
+</a>
+</p>
+{::options parse_block_html="false" /}
 
 # Tutorial en video
 
