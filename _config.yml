@@ -26,9 +26,9 @@ author_website_url: 'http://jlykos.github.io/plantilla-cv'
 author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
 home_slider: 
-  - logo: sistema-riego-arduino.jpg
-    title: Sistema de riego automático con arduino
-    url: https://www.udemy.com/certificate/UC-aba7d99e-5e08-47db-bcd7-d9db09947c20/
+  - logo: Wordpress-basico.png
+    title: Wordpress básico
+    url: https://jlykos.github.io/assets/img/certificados/Wordpress-basico.png
     visibility: true
   - logo: sistema-riego-arduino.jpg
     title: Sistema de riego automático con arduino
