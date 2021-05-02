@@ -23,7 +23,7 @@
 
     # Build the website using Jekyll
     echo "🏋️ Construyendo website..."
-    JEKYLL_ENV=production bundle exec jekyll build
+    JEKYLL_ENV=production bundle exec jekyll build --trace
     echo "Jekyll build completo"
 
     # Now lets go to the generated folder by Jekyll
