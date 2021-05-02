@@ -26,6 +26,10 @@ author_website_url: 'http://jlykos.github.io/plantilla-cv'
 author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
 home_slider: 
+  - logo: Ingles_basico_conversacional_networking.png
+    title: Inglés básico: conversacional y networking
+    url: https://courses.edx.org/certificates/06c2aecc09684b0a9393f059c6c05870
+    visibility: true
   - logo: Wordpress-basico.png
     title: Wordpress básico
     url: https://jlykos.github.io/assets/img/certificados/Wordpress-basico.png
@@ -54,33 +58,17 @@ home_slider:
     title: Programador de microordenadores
     url: /assets/img/certificados/programador-de-microordenadores.png
     visibility: true
-  - logo: universidads-innovan.png
-    title: Universidades Innovan
-    url: /assets/img/certificados/universidads-innovan.png
-    visibility: true
   - logo: software-development-fundamentals.png
     title: Software Development Fundamentals
     url: /assets/img/certificados/software-development-fundamentals.png
     visibility: true
-  - logo: best-practices-prepare-for-mta-students.png
-    title: Best practices - prepare for MTA students
-    url: /assets/img/certificados/best-practices-prepare-for-mta-students.png
+  - logo: analisis-y-diseño-de-circuitos.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
     visibility: true
   - logo: Electronica.jpg
     title: Electronica
     url: /assets/img/certificados/Electronica.jpg
-    visibility: true
-  - logo: Reparacion-de-celulares.jpg
-    title: Reparacion de celulares
-    url: /assets/img/certificados/Reparacion-de-celulares.jpg
-    visibility: true
-  - logo: Ingles_basico_conversacional_networking.png
-    title: Inglés básico: conversacional y networking
-    url: https://courses.edx.org/certificates/06c2aecc09684b0a9393f059c6c05870
-    visibility: true
-  - logo: analisis-y-diseño-de-circuitos.jpg
-    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
-    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
     visibility: true
 author_work_experiences:
   - company_name: Autonomo
