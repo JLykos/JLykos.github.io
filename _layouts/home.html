@@ -22,7 +22,7 @@ layout: default
       <div class="slider">
         <div class="slide-track">
           {% for slider in site.home_slider %} {% if slider.visibility == true %}
-          <div class="slide" style="height:100px;width:100%;">
+          <div class="slide" style="height:100px;width:250px;">
             <a href="{{slider.url}}" target="_blank">
               <img src="{{site.url}}{{site.baseurl}}/assets/img/certificados/{{slider.logo}}" style="max-width:100%;width:auto;height:auto;" title="{{slider.title}}"/>
             </a>
