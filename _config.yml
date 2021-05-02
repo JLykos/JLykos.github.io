@@ -74,9 +74,9 @@ home_slider:
     title: Reparacion de celulares
     url: /assets/img/certificados/Reparacion-de-celulares.jpg
     visibility: true
-  - logo: sistema-riego-arduino.jpg
-    title: Sistema de riego automático con arduino
-    url: https://www.udemy.com/certificate/UC-aba7d99e-5e08-47db-bcd7-d9db09947c20/
+  - logo: Ingles_basico_conversacional_networking.png
+    title: Inglés básico: conversacional y networking
+    url: https://courses.edx.org/certificates/06c2aecc09684b0a9393f059c6c05870
     visibility: true
   - logo: analisis-y-diseño-de-circuitos.jpg
     title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
