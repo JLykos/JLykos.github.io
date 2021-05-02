@@ -103,6 +103,13 @@ author_education_details:
     description: 8vo libro
     visibility: true
 author_project_details:
+  - project_thumbnail: SAMI.png
+    project_title: S.A.M.I.
+    project_description: >-
+      Sistema de Asistencia Médica Integral con módulos según requisitos de uso interno para la Fundación Manos de Gracia.
+    project_url: ''
+    url_text: De uso interno
+    visibility: true
   - project_thumbnail: Llenadora.png
     project_title: Sistema de llenado
     project_description: >-
