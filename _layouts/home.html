@@ -17,12 +17,12 @@ layout: default
     </div>
 
     {% if site.show_home_slider == true %}
-    <div class="col-lg-12">
+    <div class="col-lg-8 offset-md-2">
       <h1 class="card-title">Certificados recientes</h1>
       <div class="slider">
         <div class="slide-track">
           {% for slider in site.home_slider %} {% if slider.visibility == true %}
-          <div class="slide" style="height:100px;width:250px;">
+          <div class="slide" style="height:100px;width:100%;">
             <a href="{{slider.url}}" target="_blank">
               <img src="{{site.url}}{{site.baseurl}}/assets/img/certificados/{{slider.logo}}" style="max-width:100%;width:auto;height:auto;" title="{{slider.title}}"/>
             </a>
