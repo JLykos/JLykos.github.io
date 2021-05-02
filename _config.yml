@@ -5,13 +5,13 @@ url: 'https://jlykos.github.io/'
 baseurl: 
 urls:
   - text: Sobre mi
-    url: /about
+    url: about
   - text: Blog
-    url: /blog
+    url: blog
   - text: Galería
-    url: /galeria
+    url: galeria
   - text: Contactame
-    url: /contacto
+    url: contacto
 author_logo: profile.png
 author: Julio Díaz
 author_bio: >-
