@@ -19,6 +19,7 @@
     # Install all of our dependencies inside the container
     # based on the git repository Gemfile
     echo "⚡️ Instalando dependencias del proyecto..."
+    bundle update
     bundle update jgd
     bundle install
 
