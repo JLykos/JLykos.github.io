@@ -1,8 +1,7 @@
   #!/bin/bash
   
-    TOKEN="escribe tu token aquí"
-    ID="escribe tu id aquí"
-    MENSAJE="Esto es un Mensaje de Prueba"
+    TOKEN="1235565537:AAFc82-ZZKrtLxA2uttTCewWd6pDd2oMVHg"
+    ID="576786484"
     URL="https://api.telegram.org/bot$TOKEN/sendMessage"
   
     # Exit immediately if a pipeline returns a non-zero status.
