@@ -1,7 +1,14 @@
   #!/bin/bash
+  
+    TOKEN="escribe tu token aquí"
+    ID="escribe tu id aquí"
+    MENSAJE="Esto es un Mensaje de Prueba"
+    URL="https://api.telegram.org/bot$TOKEN/sendMessage"
+  
     # Exit immediately if a pipeline returns a non-zero status.
     set -e
-
+    
+    curl -s -X POST $URL -d chat_id=$ID -d text="🚀 Iniciando deployment en jlykos.github.io"
     echo "🚀 Iniciando deployment"
 
     # Here we are using the variables
@@ -18,12 +25,14 @@
 
     # Install all of our dependencies inside the container
     # based on the git repository Gemfile
+    
+    curl -s -X POST $URL -d chat_id=$ID -d text="⚡️ Instalando dependencias del proyecto."
     echo "⚡️ Instalando dependencias del proyecto..."
     bundle update
-    bundle update jgd
     bundle install
 
     # Build the website using Jekyll
+    curl -s -X POST $URL -d chat_id=$ID -d text="🏋️ Construyendo website."
     echo "🏋️ Construyendo website..."
     JEKYLL_ENV=production bundle exec jekyll build --trace
     echo "Jekyll build completo"
@@ -32,6 +41,7 @@
     # and perform everything else from there
     cd _site
 
+    curl -s -X POST $URL -d chat_id=$ID -d text="☁️ Publicando website."
     echo "☁️ Publicando website"
 
     # We don't need the README.md file on this branch
@@ -54,4 +64,5 @@
     rm -fr .git
     cd ..
     rm -rf repo
+    curl -s -X POST $URL -d chat_id=$ID -d text="🎉 Version actualizada 🎊"
     echo "🎉 Nueva version deployed 🎊"
