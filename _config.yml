@@ -70,6 +70,18 @@ home_slider:
     title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
     url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
     visibility: true
+  - logo: Ciberseguridad-en-el-teletrabajo.png
+    title: Ciberseguridad en el teletrabajo
+    url: /assets/img/certificados/Ciberseguridad-en-el-teletrabajo.png
+    visibility: true
+  - logo: Ingles_basico_conversacional_networking.png
+    title: Ingles basico - conversacional y networking
+    url: https://courses.edx.org/certificates/06c2aecc09684b0a9393f059c6c05870
+    visibility: true
+  - logo: Wordpress-basico.png
+    title: Wordpress básico
+    url: https://jlykos.github.io/assets/img/certificados/Wordpress-basico.png
+    visibility: true
 author_work_experiences:
   - company_name: Autonomo
     company_logo: profile.png
