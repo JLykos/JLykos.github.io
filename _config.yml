@@ -26,6 +26,14 @@ author_website_url: 'http://jlykos.github.io/plantilla-cv'
 author_website_url_text: CV
 typewrite-text: No conocemos una millonésima parte del uno por ciento de nada.
 home_slider:
+  - logo: Introduccion-al-desarrollo-web-II.png
+    title: Introduccion al desarrollo web II
+    url: /assets/img/certificados/Introduccion-al-desarrollo-web-II.png
+    visibility: true
+  - logo: Introduccion-al-desarrollo-web-I.png
+    title: Introduccion al desarrollo web I
+    url: /assets/img/certificados/Introduccion-al-desarrollo-web-I.png
+    visibility: true
   - logo: Ciberseguridad-en-el-teletrabajo.png
     title: Ciberseguridad en el teletrabajo
     url: /assets/img/certificados/Ciberseguridad-en-el-teletrabajo.png
@@ -70,6 +78,14 @@ home_slider:
     title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
     url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
     visibility: true
+  - logo: Introduccion-al-desarrollo-web-II.png
+    title: Introduccion al desarrollo web II
+    url: /assets/img/certificados/Introduccion-al-desarrollo-web-II.png
+    visibility: true
+  - logo: Introduccion-al-desarrollo-web-I.png
+    title: Introduccion al desarrollo web I
+    url: /assets/img/certificados/Introduccion-al-desarrollo-web-I.png
+    visibility: true
   - logo: Ciberseguridad-en-el-teletrabajo.png
     title: Ciberseguridad en el teletrabajo
     url: /assets/img/certificados/Ciberseguridad-en-el-teletrabajo.png
@@ -81,6 +97,38 @@ home_slider:
   - logo: Wordpress-basico.png
     title: Wordpress básico
     url: https://jlykos.github.io/assets/img/certificados/Wordpress-basico.png
+    visibility: true
+  - logo: sistema-riego-arduino.jpg
+    title: Sistema de riego automático con arduino
+    url: https://www.udemy.com/certificate/UC-aba7d99e-5e08-47db-bcd7-d9db09947c20/
+    visibility: true
+  - logo: analisis-y-diseño-de-circuitos.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
+    visibility: true
+  - logo: introduccion-a-git-y-github.jpg
+    title: Introduccion a Git y Github
+    url: https://www.udemy.com/certificate/UC-bcfb0835-5ada-4f85-8f81-80785625a05c/
+    visibility: true
+  - logo: introduccion-a-iot.png
+    title: Introduccion a IoT
+    url: /assets/img/certificados/introduccion-a-iot.png
+    visibility: true
+  - logo: diseñador-de-circuitos-impresos.png
+    title: Diseñador de circuitos impresos
+    url: /assets/img/certificados/diseñador-de-circuitos-impresos.png
+    visibility: true
+  - logo: programador-de-microordenadores.png
+    title: Programador de microordenadores
+    url: /assets/img/certificados/programador-de-microordenadores.png
+    visibility: true
+  - logo: software-development-fundamentals.png
+    title: Software Development Fundamentals
+    url: /assets/img/certificados/software-development-fundamentals.png
+    visibility: true
+  - logo: analisis-y-diseño-de-circuitos.jpg
+    title: Ingenieria Electronica - Analisis Y Diseño De Circuitos I
+    url: https://www.udemy.com/certificate/UC-f2fecdcd-25ef-4d50-9839-afb590dd9c27/
     visibility: true
 author_work_experiences:
   - company_name: Autonomo
