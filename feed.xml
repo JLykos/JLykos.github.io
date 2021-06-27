@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="https://jlykos.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://jlykos.github.io//" rel="alternate" type="text/html" /><updated>2021-06-27T22:31:32+00:00</updated><id>https://jlykos.github.io//feed.xml</id><title type="html">Julio Díaz</title><subtitle>Pagina personal para usos multiples</subtitle><author><name>Julio Díaz</name></author><entry><title type="html">Proteus: Descarga e instalación</title><link href="https://jlykos.github.io//software/2020/09/09/proteus-descarga-e-instalaci%C3%B3n/" rel="alternate" type="text/html" title="Proteus: Descarga e instalación" /><published>2020-09-09T14:14:43+00:00</published><updated>2020-09-09T14:14:43+00:00</updated><id>https://jlykos.github.io//software/2020/09/09/proteus-descarga-e-instalaci%C3%B3n</id><content type="html" xml:base="https://jlykos.github.io//software/2020/09/09/proteus-descarga-e-instalaci%C3%B3n/">&lt;p style=&quot;text-align:justify&quot;&gt;En este post me dedicare a explicar cómo &lt;strong&gt;descargar e instalar Proteus&lt;/strong&gt;, aunque existen muchos simuladores a nivel electrónico este es de los que posee una &lt;strong&gt;librería suficiente&lt;/strong&gt; para realizar distintos circuitos. Ademas, es el simulador que utilizaremos en el Curso de Electrónica Básica.&lt;/p&gt;
+
+&lt;h1 id=&quot;indice&quot;&gt;Indice&lt;/h1&gt;
+
+&lt;ol class=&quot;no_toc&quot;&gt;
+  &lt;li&gt;TOC&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;qué-es-proteus&quot;&gt;¿Qué es Proteus?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Es un &lt;strong&gt;software&lt;/strong&gt; de &lt;strong&gt;simulación&lt;/strong&gt; para circuitos electrónicos con funcionalidades adicionales como la capacidad de &lt;strong&gt;crear diseños&lt;/strong&gt; para PCB (placas impresas). Aunque existen grandes beneficios al utilizar un software de simulación tan completo en librerías y funcionalidades como este, la carencia de conocimiento electrónico pueden causar simulaciones que al llevar a la vida real puedan quemarse o funcionar de forma incorrecta.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Proteus es un excelente simulador, pero no puede hacer todo el trabajo duro.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;cómo-descargo-el-instalador&quot;&gt;¿Cómo descargo el instalador?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Les comparto este par de links, uno para cada versión que se encuentra en mi nube personal, para que descarguen la versión que gusten así como tambien dejo el link para una licencia hasta el 2030.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mega.nz/file/OO5RxDSC#dsv2Uu5GBShdxKLcgFFpK1q_M5hEDl7sbgU8Ex99J8U&quot;&gt;Versión 7.7 (No la he usado antes)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mega.nz/file/ibp03Y4B#F6qiSDFGCUQkIvakh8t5SPq_JX6W_m0ldtaqyoVA3sc&quot;&gt;Versión 8.8 SP1 + Librerías Arduino.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mega.nz/file/eepkVQ6I#1YAOLEZqZbDB-a4_n6W53ZPpSsL6ZffO9OOOA-yj3WI&quot;&gt;Licencia.&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;En el momento en que den click a la version de su preferencia (o licencia), obtendrán una ventana como esta y solo deben pulsar el boton “&lt;em&gt;descargar&lt;/em&gt;” para poder guardarlo en algun lugar de su computador.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/mega-descarga.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/mega-descarga.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&quot;proceso-de-instalación&quot;&gt;Proceso de instalación&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Una vez tengamos descargado y ubicado nuestro par de archivos comprimidos (versión del software y licencia), marcaremos los documentos y, con click derecho, los extraemos en carpetas separadas.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/1.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/1.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;En el caso de descargar el archivo de la versión 8.8, neesitaran escribir la contraseña &lt;code class=&quot;highlighter-rouge&quot;&gt;Julio Cesar Diaz Ortiz&lt;/code&gt; y así poder descromprimir el archivo.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/2.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/2.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Entramos a la carpeta creada tras la descompresión de la versión utilizada y ejecutamos la aplicación para comenzar la instalación.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/4.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/4.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Abrirá una ventana y solo comenzaremos a dar next.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/5.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/5.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Aceptamos los terminos (marcando la casilla) y seguimos dando next.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/6.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/6.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Nada que cambiar y continuamos con next.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/7.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/7.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;En caso de no existir licencia previa, solo damos next para que salgaa la siguiente ventana donde colocaremos la licencia descargada en el otro archivo descomprimido.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/8.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/8.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Pulsamos en &lt;code class=&quot;highlighter-rouge&quot;&gt;Bowse For Key File&lt;/code&gt; para buscar la licencia que descargamos en el segundo archivo (ya descomprimido)&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/9.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/9.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/10.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/10.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Luego de elegir la licencia nos aparece una ventana donde solo tendremos que pulsar “Si”.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/11.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/11.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Close y a continuar con la instalación.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/12.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/12.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Puedes jugar con estas opciones siguientes en caso de tener información previa por alguna versión anterior del software, en caso contrario no se debe marcar nada y solo darle next.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/13.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/13.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Seleccionamos la opción de instalación típica (Typical) haciendo click en ella y esperamos a que se realice la instalación.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/14.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/14.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/15.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/15.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;No pasa nada si aparece un par de veces una ventana negra (CMD) solo espera a que termine el proceso y se cerrara sola.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/16.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/16.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;POR FAVOR, NO INICIES EL PROGRAMA Y PULSA CLOSE.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/17.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/17.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Entonces busca en la carpeta de la versión (en este caso 8.8), dentro de una carpeta llamada “Licencia y Crack Proteus 8.8 SP1” un archivo llamado “P8.8sp1” y dale click derecho para copiarlo, lo necesitaremos en otro lugar.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/18.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/18.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Iremos al escritorio y, al dar click derecho en el nuevo icono de “Proteus Profesional 8” pulsaremos “Abrir la ubicación del archivo”.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/19.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/19.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Una nueva ventana aparece y pulsamos click derecho para luego usar la opción de pegar.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/20.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/20.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Ejecutamos ese archivo pegado y podemos abrir ahora el Proteus desde el icono en el escritorio.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/21.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/21.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&quot;en-caso-de-que-el-sistema-se-cierre-solo&quot;&gt;En caso de que el sistema se cierre solo…&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Busca la carpeta de la versión y entra al directorio llamado “proteus Profesional 8.8 SP1 Crack Fix”, copia el par de carpetas y vuelve a buscar el icono en el escritorio para, con click derecho, entrar a la ubicación del archivo.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/22.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/22.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Cuando abra la ventana, solo dirigete a un directorio superior hacieno click en la barra de dirección donde dice “Proteus 8 Profesional”.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/23.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/23.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Pega aquí las dos carpetas que copiaste de forma previa&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/24.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/24.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Marca la casilla única y pulsa si.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/25.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/25.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Marca la casilla única y pulsa “Copiar y reemplazar”.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/26.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/26.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;¡Listo, Proteus sin cierre forzado!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;{: style=”text-align:justify”}En algunos casos, esta solución no funciona pero se resuelve con aplicar una instalación personalizada usando la opción “Custom” y solo pulsar siguiente (siempre y cuando el directorio en ambos campos de texto en esta opción sean el mismo).
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;/assets/img/posts/proteus/14.PNG&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/proteus/14.PNG&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h1 id=&quot;tutorial-en-video&quot;&gt;Tutorial en video&lt;/h1&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+	&lt;iframe src=&quot;https://www.youtube.com/embed/eicndNr5_9g?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&amp;amp;disablekb=0&amp;amp;modestbranding=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;true&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;</content><author><name>Julio Díaz</name></author><category term="Software" /><summary type="html">En este post me dedicare a explicar cómo descargar e instalar Proteus, aunque existen muchos simuladores a nivel electrónico este es de los que posee una librería suficiente para realizar distintos circuitos. Ademas, es el simulador que utilizaremos en el Curso de Electrónica Básica.</summary></entry><entry><title type="html">Servidor Discord</title><link href="https://jlykos.github.io//software/2020/06/19/servidor-discord/" rel="alternate" type="text/html" title="Servidor Discord" /><published>2020-06-19T21:24:23+00:00</published><updated>2020-06-19T21:24:23+00:00</updated><id>https://jlykos.github.io//software/2020/06/19/servidor-discord</id><content type="html" xml:base="https://jlykos.github.io//software/2020/06/19/servidor-discord/">&lt;p style=&quot;text-align:justify&quot;&gt;Seamos sinceros, existe una gran cantidad de herramientas que cumplen con los servicios de videollamadas pero solo uno de ellos ha ganado gran popularidad en los últimos tiempos, también es de los que más ha mejorado en cuanto a opciones se refiere. Hablamos de Discord, una plataforma con poquísimas restricciones que va mucho más allá de un simple servicio de videollamadas y chats.&lt;/p&gt;
+
+&lt;h1 class=&quot;no_toc&quot; id=&quot;indice&quot;&gt;Indice&lt;/h1&gt;
+&lt;ol id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#qué-es-discord&quot; id=&quot;markdown-toc-qué-es-discord&quot;&gt;¿Qué es Discord?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cómo-registrarse&quot; id=&quot;markdown-toc-cómo-registrarse&quot;&gt;¿Cómo registrarse?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#configuración-de-discord&quot; id=&quot;markdown-toc-configuración-de-discord&quot;&gt;Configuración de Discord&lt;/a&gt;    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&quot;#configuraciones-personales&quot; id=&quot;markdown-toc-configuraciones-personales&quot;&gt;Configuraciones personales&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#servidores&quot; id=&quot;markdown-toc-servidores&quot;&gt;Servidores&lt;/a&gt;        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&quot;#config&quot; id=&quot;markdown-toc-config&quot;&gt;Creando el servidor propio&lt;/a&gt;            &lt;ol&gt;
+              &lt;li&gt;&lt;a href=&quot;#configurando&quot; id=&quot;markdown-toc-configurando&quot;&gt;Configurando&lt;/a&gt;                &lt;ol&gt;
+                  &lt;li&gt;&lt;a href=&quot;#los-roles&quot; id=&quot;markdown-toc-los-roles&quot;&gt;Los roles&lt;/a&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;a href=&quot;#creación-de-canales-y-categorías&quot; id=&quot;markdown-toc-creación-de-canales-y-categorías&quot;&gt;Creación de Canales y Categorías&lt;/a&gt;&lt;/li&gt;
+                &lt;/ol&gt;
+              &lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;qué-es-discord&quot;&gt;¿Qué es Discord?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Discord es una plataforma social cuya función es la creación de grupos de chat para diferentes finalidades (haciendo énfasis en juegos), si, es cierto, Skype o TeamSpeak pueden cumplir con esas necesidades pero no incluyen funciones de otras herramientas más profesionales. Esta aplicación tiene versiones tanto para PC como para dispositivos móviles, pasando también por un cliente que puedes utilizar directamente desde el navegador. Además tiene bastantes funcionalidades, permitiendo chatear por texto, por voz e incluso realizar videoconferencias, todo ello con una aplicación totalmente gratuita.&lt;/p&gt;
+
+&lt;h1 id=&quot;cómo-registrarse&quot;&gt;¿Cómo registrarse?&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Lo primero que deberás hacer para registrarte sera entra a la &lt;a href=&quot;https://discord.com/&quot;&gt;web de Discord&lt;/a&gt; y pulsar en &lt;em&gt;“Iniciar sesión”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/posts/discord-web.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/posts/discord-web.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Una nueva ventana emergente aparecerá y, en la sección inferior, debes ingresar al vinculo para registrarte. Si quieres saltarte todo esto, solo ingresa a este &lt;a href=&quot;https://discord.com/register&quot;&gt;link&lt;/a&gt; donde deberás ingresar tu correo electrónico, un usuario y una contraseña que desees para tu cuenta. Por otro lado, puedes usar la &lt;a href=&quot;https://discord.com/login&quot;&gt;versión web&lt;/a&gt; o descargar la &lt;a href=&quot;https://discord.com/download&quot;&gt;versión instalable&lt;/a&gt; para diferentes plataformas. Vamos a lo que de verdad nos importa…&lt;/p&gt;
+
+&lt;h1 id=&quot;configuración-de-discord&quot;&gt;Configuración de Discord&lt;/h1&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Luego de iniciar sesión, usando tu correo y contraseña, lo primero que veremos es la pantalla de inicio donde se mostraran los amigos conectados junto a un conjunto de pestañas para filtrar el contenido. Existen muchas configuraciones que pueden aplicarse a Discord, tanto a nivel personal como de servidores propios y de terceros, intentare cubrir lo mejor posible solo la información que sea necesaria según las preferencias de mi cuenta.&lt;/p&gt;
+
+&lt;h2 id=&quot;configuraciones-personales&quot;&gt;Configuraciones personales&lt;/h2&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Iniciemos por los ajustes de la cuenta, a las cuales puedes ingresar pulsando “⚙️” en el fondo de la barra lateral izquierda a lo que aparece la siguiente ventana emergente&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/ajustesusuario-micuenta.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/ajustesusuario-micuenta.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;La primera sección es “Ajustes de usuario”, teniendo los siguientes ítems:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Mi cuenta&lt;/li&gt;
+  &lt;li&gt;Privacidad y seguridad.&lt;/li&gt;
+  &lt;li&gt;Aplicaciones autorizadas.&lt;/li&gt;
+  &lt;li&gt;Conexiones.&lt;/li&gt;
+  &lt;li&gt;Facturación.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Estos primeros pasos no son tan necesarios, pueden ir jugando con los parámetros según la experiencia de usuario así como, y sin duda es bastante importante, la cantidad de servidores en los que sean miembros. Al igual que en otras plataformas, pueden hacer uso de su cuenta Discord para iniciar sesión o utilizar apps de terceros (Aplicaciones autorizadas) ademas de sincronizar o incorporar otras redes (Conexiones).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/ajustesusuario-conexiones.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/ajustesusuario-conexiones.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Saltemos a los &lt;strong&gt;&lt;em&gt;“Ajustes de aplicación”&lt;/em&gt;&lt;/strong&gt;, justo en “Voz y Video”, pues es donde tendrán la capacidad de modificar (y probar) el funcionamiento de altavoces y micrófono. La mejor opción dentro de esta categoría es la posibilidad de habilitar el micrófono solo cuando una tecla sea pulsada (Pulsar para hablar), aunque existen configuraciones para los servidores donde se evita que ingresen personas sin esa opción, siempre recomiendo hacer uso de ella para no causar desastres en los canales de voz. &lt;strong&gt;NOTA&lt;/strong&gt;: esta opción esta restringida para la versión web.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/ajustedeapp-vozvideo.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/ajustedeapp-vozvideo.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Lo cierto es que las configuraciones personales bastante simples y no requieren mayor esfuerzo en cuanto a modificación.&lt;/p&gt;
+
+&lt;h2 id=&quot;servidores&quot;&gt;Servidores&lt;/h2&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Cuando estamos en la pantalla de inicio, justo en la barra lateral en la izquierda, tendremos un botón con el símbolo “➕”, es aquí donde entramos en el juego de los servidores pues tendrás la opción de crear tu propio servidor o unirte a uno existente.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://i.blogs.es/b0909e/anadir-servidor/1366_2000.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;https://i.blogs.es/b0909e/anadir-servidor/1366_2000.jpg&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;
+    &lt;a href=&quot;/assets/img/gallery/discord/nuevoserver.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+        &lt;img src=&quot;/assets/img/gallery/discord/nuevoserver.png&quot; class=&quot;img-fluid&quot; /&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;En caso de seleccionar la opción para unirse a un servidor, un cuadro de texto solicitara el link de invitación o tan solo la extensión de la invitación.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+    &lt;a href=&quot;/assets/img/gallery/discord/unirserver.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+        &lt;img src=&quot;/assets/img/gallery/discord/unirserver.png&quot; class=&quot;img-fluid&quot; /&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;config&quot;&gt;Creando el servidor propio&lt;/h3&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Si elijes crear un servidor, necesitas configurar las variables mínimas de inicio como el nombre y el logo del servidor (pueden cambiarse en el futuro).&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+    &lt;a href=&quot;/assets/img/gallery/discord/crearserver.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+        &lt;img src=&quot;/assets/img/gallery/discord/crearserver.png&quot; class=&quot;img-fluid&quot; /&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Al finalizar, pulsando el boton “Crear”, te encontraras en el canal por defecto de tu nuevo servidor. Es hora de comenzar a configurar, pulsamos el nombre de nuestro servidor en la parte superior de la barra lateral para desplegar un pop-up con distintas opciones donde seleccionaremos &lt;em&gt;“ajustes de servidor”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+    &lt;a href=&quot;/assets/img/gallery/discord/ajusteserver.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+        &lt;img src=&quot;/assets/img/gallery/discord/ajusteserver.png&quot; class=&quot;img-fluid&quot; /&gt;
+    &lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h4 id=&quot;configurando&quot;&gt;Configurando&lt;/h4&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;En este momento estaremos en la primera opción, la vista general, donde podremos cambiar el nombre, logo e incluso la región del servidor. Ademas, podemos ajustar el un canal AFK (Canal de voz) al cual serán desplazados, de forma automática, aquellos usuarios que tengan un tiempo ajustable de inactividad en otro canal de voz, cambiar o deshabilitar los mensajes del sistema (bienvenidas y mejoras) y ajustar las notificaciones predeterminadas a “solo menciones” para &lt;strong&gt;evitar desastres&lt;/strong&gt; como  &lt;a href=&quot;https://www.youtube.com/embed/zGl796352RI?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&amp;amp;disablekb=0&amp;amp;modestbranding=0&quot; data-toggle=&quot;lightbox&quot;&gt;este&lt;/a&gt;. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/confserver.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/confserver.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;a href=&quot;/assets/img/gallery/discord/confserver2.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/confserver2.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Bien, por el momento nos saltaremos algunos puntos que requieren mayor atención para ir a la sección “moderación”, donde podremos asignar el nivel de “seguridad” que tendrá nuestro servidor Discord en cuanto a ingreso de nuevos miembros, análisis de contenido multimedia y requisitos para moderadores del servidor (recomendado para servidores grandes).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/moderacion.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/moderacion.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;los-roles&quot;&gt;Los roles&lt;/h5&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Considerando que acá es donde ocurre la magia del servidor (con ayuda de bots), es necesario asignar un titulo para dedicarle mayor tiempo y espacio de explicación.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Un gran poder conlleva una gran responsabilidad&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Los roles, de forma básica, son los permisos que se le pueden asignar a un usuario en el servidor de forma rápida. Si no existiera la opción de los roles, deberíamos asignar de forma individual los mismos permisos a diferentes usuarios o diferentes permisos a diferentes usuarios (aunque también ambos son posibles). Hay que considerar los siguientes puntos como los mas importantes (al menos para mi):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Los permisos son jerárquicos.&lt;/li&gt;
+  &lt;li&gt;Un rol no puede asignar el mismo rol.&lt;/li&gt;
+  &lt;li&gt;Todos forman parte del rol “everyone” aunque solo afecta a los que no posean otro rol (por el punto 1).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Vamos con las diferentes opciones para configurar un rol, suponiendo que jamas olvidaras los puntos anteriores y que has creado tu primer rol al pulsar sobre el símbolo “+” junto a la palabra “roles”.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/roles.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/roles.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Nombre de rol&lt;/strong&gt;: nombre del rol (obvio)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Color de rol&lt;/strong&gt;: todos los miembros del rol cambiaran su color de apodo al asignado.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mostrar los miembros…&lt;/strong&gt;: muestra (o no) en la barra de usuarios una categoría para indicar los miembros conectados que forman parte del rol.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Permitir que cualquiera…&lt;/strong&gt;: cambia la posibilidad de usar @NOMBRE-DE-ROL para etiquetar a todos los integrantes del rol mencionado.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/roles2.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/roles2.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Administrador&lt;/strong&gt;: otorga todos los permisos en la lista, dándole la capacidad de ver y conectarse a cualquier canal.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Registro de auditoria&lt;/strong&gt;: donde se guardan todos los cambios que se realicen en el servidor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestionar servidor&lt;/strong&gt;: le da acceso a “vista general”.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p style=&quot;text-align:justify&quot;&gt;&lt;strong&gt;Gestionar roles&lt;/strong&gt;: Tal como dice Discord, siguiendo las reglas de oro…&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;&lt;em&gt;“Este permiso otorga añadir Roles para rangos inferiores, y editarlos respectivamente. Ten en cuenta que este Rol viene Segundo al de un administrador, y aún cuando puedes añadir, editar y asignar nuevos Roles a usuarios nuevos, no será posible editar roles para rangos superiores. Adicionalmente, puedes asignar permisos para Roles de rango inferior.”&lt;/em&gt;&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestionar canales&lt;/strong&gt;: permite modificar, eliminar o añadir canales.&lt;/li&gt;
+  &lt;li&gt;Expulsar y banear miembros se explica solo.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/roles3.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/roles3.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Crear invitación&lt;/strong&gt;: para generar links (según el canal donde estemos) de invitación que los otros pueden usar para ingresar a nuestro servidor.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cambiar apodo&lt;/strong&gt;: al activar esta opción en un rol, el usuario sera capaz de cambiar su usuario por un apodo mas acorde. Mi nombre de usuario es “DarthStark” pero si entro a un servidor académico o laboral creo que seria mucho mejor cambiar a un apodo que pueda identificarme mejor como “Julio Díaz”.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestionar emojis&lt;/strong&gt;: para modificar los emojis propios del servidor (limitado a 50 a menos de tener mejoras).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Gestionar webhooks&lt;/strong&gt;: quienes trabajen en desarrollo conocen sobre los Webhooks y la palabra Gestionar la conocemos desde primaria.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leer canales de texto y ver canales de voz, enviar mensajes:&lt;/strong&gt; obvio.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Enviar mensajes de texto a voz&lt;/strong&gt;: Discord, mediante el comando &lt;code class=&quot;highlighter-rouge&quot;&gt;/tts&lt;/code&gt; te permite cambiar un texto a voz para que todos los que se encuentren en el canal puedan escucharlo.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/roles4.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/roles4.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Gestionar mensajes:&lt;/strong&gt; Útil para aquellos que moderan el servidor, dándoles el poder de eliminar mensajes enviados por otros usuarios.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Insertar enlaces, adjuntar archivos&lt;/strong&gt;: permite (o no) lo indicado en su nombre.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Leer historial de mensaje:&lt;/strong&gt; para permitir, a nuevos usuarios, leer información previa a su ingreso.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Mencionar @everyone…&lt;/strong&gt;: funciona como etiqueta, permite&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Usar emojis externos&lt;/strong&gt;: aunque este activo, Discord solo permite usar emojis externos cuando tienes Discord Nitro.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Para terminar con los roles, tenemos los permisos de voz que se muestran en la foto de abajo pero no necesitan texto de explicación.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/img/gallery/discord/roles5.png&quot; data-toggle=&quot;lightbox&quot;&gt;
+    &lt;img src=&quot;/assets/img/gallery/discord/roles5.png&quot; class=&quot;img-fluid&quot; /&gt;
+&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;h5 id=&quot;creación-de-canales-y-categorías&quot;&gt;Creación de Canales y Categorías&lt;/h5&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Otro punto tan importante como los roles, y dependiente de ellos, son las categorías donde podremos alojar un sin fin de canales de texto o de voz. No esta demás mencionar que los canales no pueden ser mixtos aunque puedes entrar a canales de texto mientras estés conectado a un canal de voz.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Para crear una categoría o canal solo debemos hacer uso del popup mencionado cuando se habló sobre la &lt;a href=&quot;#config&quot;&gt;creación del servidor propio&lt;/a&gt; y seleccionar la opción de preferencia; existe una gran ventaja al crear categorías para alojar los canales, se trata de una opción de sincronización que permite al canal heredar todos los permisos de su categoría padre.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Cuando creamos una nueva categoría o canal, es posible asignar permisos de visibilidad al deslizar la opción “🔒 Categoría privada” o “🔒 Canal privado” y de forma inmediata tendrás que seleccionar los roles que tendrán acceso a esta categoría/canal; la única diferencia entre crear canales y categorías es que el primero de ellos tiene un par de opciones para elegir, “Canal de texto” o “Canal de voz”.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Se que ha sido un post bastante largo pero intente resumir la información mas relevante en cuanto al manejo de Servidores Discord; cualquier duda o comentario pueden dejarla en el cajón de abajo 👇👇👇.&lt;/p&gt;</content><author><name>Julio Díaz</name></author><category term="Software" /><summary type="html">Seamos sinceros, existe una gran cantidad de herramientas que cumplen con los servicios de videollamadas pero solo uno de ellos ha ganado gran popularidad en los últimos tiempos, también es de los que más ha mejorado en cuanto a opciones se refiere. Hablamos de Discord, una plataforma con poquísimas restricciones que va mucho más allá de un simple servicio de videollamadas y chats.</summary></entry><entry><title type="html">Sistema de llenado para envases</title><link href="https://jlykos.github.io//proyecto/2020/06/02/sistema-de-llenado-para-envases/" rel="alternate" type="text/html" title="Sistema de llenado para envases" /><published>2020-06-02T21:47:24+00:00</published><updated>2020-06-02T21:47:24+00:00</updated><id>https://jlykos.github.io//proyecto/2020/06/02/sistema-de-llenado-para-envases</id><content type="html" xml:base="https://jlykos.github.io//proyecto/2020/06/02/sistema-de-llenado-para-envases/">&lt;p style=&quot;text-align:justify&quot;&gt;En la Universidad Nacional Experimental Politécnica “Antonio José de Sucre”, Vicerectorado “Luís Caballero Mejías”, Núcleo Guarenas, se realizó la X Feria Tecnológica de Ingeniería Mecatrónica donde se presentarían 25 proyectos de materias como &lt;em&gt;“Proyectos de Ingeniería Mecatrónica II”&lt;/em&gt;, &lt;em&gt;“Metodologías de Diseños Mecatrónicos”&lt;/em&gt;, &lt;em&gt;“Inteligencia Artificial”&lt;/em&gt; y &lt;em&gt;“Control II”&lt;/em&gt;, siendo esta ultima la materia por el cual fue planteado como propuesta el &lt;strong&gt;&lt;em&gt;Sistema de llenado para envases&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;
+	&lt;a href=&quot;https://1.bp.blogspot.com/-wymecJ-n3Js/XmE8U-5g_oI/AAAAAAAAA1I/JoywaV07Nl4yYI5e80OKfBOxV6p2bC8ygCLcBGAsYHQ/s640/IMG-20200302-WA0004%2B%25281%2529.jpg&quot; data-toggle=&quot;lightbox&quot;&gt;
+		&lt;img src=&quot;https://1.bp.blogspot.com/-wymecJ-n3Js/XmE8U-5g_oI/AAAAAAAAA1I/JoywaV07Nl4yYI5e80OKfBOxV6p2bC8ygCLcBGAsYHQ/s640/IMG-20200302-WA0004%2B%25281%2529.jpg&quot; class=&quot;img-fluid&quot; /&gt;
+	&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;Esta llenadora cuenta con un sistema de inicio donde un operario, y solo al inicio, debe configurar los parámetros para el funcionamiento del sistema, así, sin mayor esfuerzo, se entrega la capacidad de realizar procesos de llenado con lotes de envases de alturas variadas. Dentro de las configuraciones que se deben realizar al inicio se encuentra el nivel de envases (LDR), cantidad de envases a llenar (antes de realizar otra comprobación del sistema), tiempo de llenado (segundos en que la bomba suministra liquido al recipiente objetivo); por otro lado, el operador solo debe ajustar un par de perillas y utilizar un botón único para aceptar,iniciar o guardar configuraciones o arranques del equipo.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:justify&quot;&gt;El siguiente vídeo muestra un prototipo con materiales reciclados lo cual, aunado a falta de herramientas,  generó fallas en los sistemas automáticos para la entrada y salida de envases llevando al retiro de las partes durante la presentación. Cabe destacar que al usar los materiales y equipo adecuado, el sistema funciona de forma correcta. Ademas, algunos de los sistemas fueron elaborados con materiales de bajo costo para poder armar un equipo lo mas funcional posible, por ello componentes como un sensor ultrasónico fueron sustituidos por materiales mas simples (leds, transistores y resistencias) obteniendo un proceso menos automatizado.&lt;/p&gt;
+
+&lt;figure class=&quot;video_container&quot;&gt;
+	&lt;iframe src=&quot;https://www.youtube.com/embed/qcPdu4HSLWw?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&amp;amp;disablekb=0&amp;amp;modestbranding=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;true&quot; width=&quot;100%&quot; height=&quot;300&quot;&gt;&lt;/iframe&gt;
+&lt;/figure&gt;</content><author><name>Julio Díaz</name></author><category term="Proyecto" /><summary type="html">En la Universidad Nacional Experimental Politécnica “Antonio José de Sucre”, Vicerectorado “Luís Caballero Mejías”, Núcleo Guarenas, se realizó la X Feria Tecnológica de Ingeniería Mecatrónica donde se presentarían 25 proyectos de materias como “Proyectos de Ingeniería Mecatrónica II”, “Metodologías de Diseños Mecatrónicos”, “Inteligencia Artificial” y “Control II”, siendo esta ultima la materia por el cual fue planteado como propuesta el Sistema de llenado para envases.</summary></entry></feed>
