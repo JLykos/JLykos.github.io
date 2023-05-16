@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <title>Servidor Discord - Julio Díaz</title>
+  <div class="head"></div>
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <div class="header"></div>
+  <!-- ======= Header ======= -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Servidor Discord</h2>
+          <ol>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li>Servidor Discord</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <!-- ======= Breadcrumbs ======= -->
+
+    <!-- ======= Post ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-8">
+            <article class="blog-details">
+
+            	<!-- ======= Detalles de inicio ======= -->
+              <div class="post-img">
+                <center>
+                  <img src="../assets/img/blog/discord/discord-logo.jpg" alt="" class="img-fluid">
+                </center>
+              </div>
+              <h2 class="title">Creación y configuración de un servidor Discord</h2>
+              <div class="meta-top">
+                <ul>
+                  <li class="d-flex align-items-center"><i class="bi bi-person"></i>Julio Díaz</li>
+                  <li class="d-flex align-items-center"><i class="bi bi-clock"></i><time datetime="2020-01-01">Jun. 19, 2020</time></li>
+                </ul>
+              </div>
+              <!-- ======= Detalles de inicio ======= -->
+
+              <!-- ======= Contenido ======= -->
+              <div class="content">
+                <p style="text-align:justify">
+                  Seamos sinceros, existe una gran cantidad de herramientas que cumplen con los servicios de video llamadas pero solo uno de ellos ha ganado gran popularidad en los últimos tiempos, también es de los que más ha mejorado en cuanto a opciones se refiere. Hablamos de Discord, una plataforma con poquísimas restricciones que va mucho más allá de un simple servicio de video llamadas y chats..
+                </p>
+
+                <h2>Indice</h2>
+                <ol>
+                	<li><a href="discord.html#quees">¿Qué es Discord?</a></li>
+                	<li><a href="discord.html#registro">¿Cómo registrarse?</a></li>
+                	<li>
+                		<a href="discord.html#configuracion">Configuración de Discord</a>
+                		<ol>
+                			<li><a href="discord.html#conf_personal">Configuraciones personales</a></li>
+                			<li>
+                				<a href="discord.html#servidores">servidores</a>
+                				<ol>
+                					<li><a href="discord.html#server_propio">Creando un servidor propio</a></li>
+                					<li><a href="discord.html#inicio">Configurando el inicio</a></li>
+                					<li><a href="discord.html#roles">Creando roles</a></li>
+                					<li><a href="discord.html#canales">Creación de canales y categorías</a></li>
+                				</ol>
+                			</li>
+                		</ol>
+                	</li>
+                </ol>
+
+                <h2 id="quees">¿Qué es Discord?</h2>
+
+                <p style="text-align: justify;">
+                	Discord es una plataforma social cuya función es la creación de grupos de chat para diferentes finalidades (haciendo énfasis en juegos), si, es cierto, Skype o TeamSpeak pueden cumplir con esas necesidades pero no incluyen funciones de otras herramientas más profesionales. Esta aplicación tiene versiones tanto para PC como para dispositivos móviles, pasando también por un cliente que puedes utilizar directamente desde el navegador. Además tiene bastantes funcionalidades, permitiendo chatear por texto, por voz e incluso realizar videoconferencias, todo ello con una aplicación totalmente gratuita.
+                </p>
+
+                <h2 id="registro">¿Cómo registrarse?</h2>
+
+                <p style="text-align: justify;">
+                	Lo primero que deberás hacer para registrarte sera entra a la web de <a href="https://discord.com">Discord</a> y pulsar en “Iniciar sesión”.
+                </p>
+
+                <center><img src="../assets/img/blog/discord/discord-web.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align:justify">
+                  Una nueva ventana emergente aparecerá y, en la sección inferior, debes ingresar al vinculo para registrarte. Si quieres saltarte todo esto, solo ingresa a este <a href="https://discord.com/register">link</a> donde deberás ingresar tu correo electrónico, un usuario y una contraseña que desees para tu cuenta. Por otro lado, puedes usar la <a href="https://discord.com/login">versión web</a> o descargar la <a href="https://discord.com/download">versión instalable</a> para diferentes plataformas. Vamos a lo que de verdad nos importa...
+                </p>
+
+                <h2 id="configuracion">Configuración de Discord</h2>
+
+                <p style="text-align: justify;">
+                	Luego de iniciar sesión, usando tu correo y contraseña, lo primero que veremos es la pantalla de inicio donde se mostraran los amigos conectados junto a un conjunto de pestañas para filtrar el contenido. Existen muchas configuraciones que pueden aplicarse a Discord, tanto a nivel personal como de servidores propios y de terceros, intentare cubrir lo mejor posible solo la información que sea necesaria según las preferencias de mi cuenta.
+                </p>
+
+                <h3 id="conf_personal">Configuraciones personales</h3>
+
+                <p style="text-align: justify;">
+                	Iniciemos por los ajustes de la cuenta, a las cuales puedes ingresar pulsando "⚙️" en el fondo de la barra lateral izquierda a lo que aparece la siguiente ventana emergente
+                </p>
+
+                <center><img src="../assets/img/blog/discord/ajustesusuario-micuenta.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align: justify;">
+                	La primera sección es "Ajustes de usuario", teniendo los siguientes ítems:
+                	<ol>
+	                	<il>Mi cuenta.</il>
+	                	<il>Privacidad y seguridad.</il>
+	                	<il>Aplicaciones autorizadas.</il>
+	                	<il>Conexiones.</il>
+	                	<il>Facturación.</il>
+                	</ol>
+                	<br>
+                	Estos primeros pasos no son tan necesarios, pueden ir jugando con los parámetros según la experiencia de usuario así como, y sin duda es bastante importante, la cantidad de servidores en los que sean miembros. Al igual que en otras plataformas, pueden hacer uso de su cuenta Discord para iniciar sesión o utilizar apps de terceros (Aplicaciones autorizadas) ademas de sincronizar o incorporar otras redes (Conexiones).
+                </p>
+
+                <center><img src="../assets/img/blog/discord/ajustesusuario-conexiones.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align: justify;">
+                	Saltemos a los <b>"Ajustes de aplicación"</b>, justo en "Voz y Video", pues es donde tendrán la capacidad de modificar (y probar) el funcionamiento de altavoces y micrófono. La mejor opción dentro de esta categoría es la posibilidad de habilitar el micrófono solo cuando una tecla sea pulsada (Pulsar para hablar), aunque existen configuraciones para los servidores donde se evita que ingresen personas sin esa opción, siempre recomiendo hacer uso de ella para no causar desastres en los canales de voz. <b>NOTA</b>: esta opción esta restringida para la versión web.
+                </p>
+
+                <center><img src="../assets/img/blog/discord/ajustedeapp-vozvideo.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align: justify;">
+                	Lo cierto es que las configuraciones personales bastante simples y no requieren mayor esfuerzo en cuanto a modificación.
+                </p>
+
+                <h3 id="servidores">Servidores</h3>
+
+                <p style="text-align: justify;">
+                	Cuando estamos en la pantalla de inicio, justo en la barra lateral en la izquierda, tendremos un botón con el símbolo "➕", es aquí donde entramos en el juego de los servidores pues tendrás la opción de crear tu propio servidor o unirte a uno existente.
+                </p>
+
+                <center><img src="https://i.blogs.es/b0909e/anadir-servidor/1366_2000.jpg" class="img-fluid" alt=""></center><br>
+                <center><img src="../assets/img/blog/discord/nuevoserver.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align: justify;">
+                	En caso de seleccionar la opción para unirse a un servidor, un cuadro de texto solicitara el link de invitación o tan solo la extensión de la invitación.
+                </p>
+
+                <center><img src="../assets/img/blog/discord/unirserver.png" class="img-fluid" alt=""></center><br>
+
+                <h4 id="server_propio">Creando el servidor propio</h4>
+
+                <p style="text-align: justify;">
+                	Si elijes crear un servidor, necesitas configurar las variables mínimas de inicio como el nombre y el logo del servidor (pueden cambiarse en el futuro).
+                </p>
+
+                <center><img src="../assets/img/blog/discord/crearserver.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align: justify;">
+                	Al finalizar, pulsando el botón "Crear", te encontraras en el canal por defecto de tu nuevo servidor. Es hora de comenzar a configurar, pulsamos el nombre de nuestro servidor en la parte superior de la barra lateral para desplegar un pop-up con distintas opciones donde seleccionaremos <i>"ajustes de servidor"</i>.
+                </p>
+
+                <center><img src="../assets/img/blog/discord/ajusteserver.png" class="img-fluid" alt=""></center><br>
+
+                <h4 id="inicio">Configurando el inicio</h4>
+
+                <p style="text-align: justify;">
+                	En este momento estaremos en la primera opción, la vista general, donde podremos cambiar el nombre, logo e incluso la región del servidor. Ademas, podemos ajustar el un canal AFK (Canal de voz) al cual serán desplazados, de forma automática, aquellos usuarios que tengan un tiempo ajustable de inactividad en otro canal de voz, cambiar o deshabilitar los mensajes del sistema (bienvenidas y mejoras) y ajustar las notificaciones predeterminadas a "solo menciones" para <b>evitar desastres</b> como <a href="https://www.youtube.com/embed/zGl796352RI?rel=0&amp;controls=0&amp;showinfo=0&amp;disablekb=0&amp;modestbranding=0" target="_blank">este</a>.
+                </p>
+
+                <center><img src="../assets/img/blog/discord/confserver.png" class="img-fluid" alt=""></center><br>
+                <center><img src="../assets/img/blog/discord/confserver2.png" class="img-fluid" alt=""></center><br>
+
+                <p style="text-align: justify;">
+                	Bien, por el momento nos saltaremos algunos puntos que requieren mayor atención para ir a la sección "moderación", donde podremos asignar el nivel de "seguridad" que tendrá nuestro servidor Discord en cuanto a ingreso de nuevos miembros, análisis de contenido multimedia y requisitos para moderadores del servidor (recomendado para servidores grandes).
+                </p>
+
+                <h4 id="roles">Configurando roles</h4>
+
+                <p style="text-align: justify;">
+                	Considerando que acá es donde ocurre la magia del servidor (con ayuda de bots), es necesario asignar un titulo para dedicarle mayor tiempo y espacio de explicación.<br>
+                	<blockquote>Un gran poder conlleva una gran responsabilidad.</blockquote>
+                </p>
+
+                <p style="text-align: justify;">
+                	Los roles, de forma básica, son los permisos que se le pueden asignar a un usuario en el servidor de forma rápida. Si no existiera la opción de los roles, deberíamos asignar de forma individual los mismos permisos a diferentes usuarios o diferentes permisos a diferentes usuarios (aunque también ambos son posibles). Hay que considerar los siguientes puntos como los mas importantes (al menos para mi):
+
+                	<ol>
+                		<li>Los permisos son jerárquicos.</li>
+                		<li>Un rol no puede asignar el mismo rol.</li>
+                		<li>Todos forman parte del rol "everyone" aunque solo afecta a los que no posean otro rol (por el punto 1).</li>
+                	</ol>
+                	Vamos con las diferentes opciones para configurar un rol, suponiendo que jamas olvidaras los puntos anteriores y que has creado tu primer rol al pulsar sobre el símbolo "+" junto a la palabra "roles".
+                </p>
+
+                <center><img src="../assets/img/blog/discord/roles.png" class="img-fluid" alt=""></center><br>
+
+                <ol>
+                	<li><b>Nombre de rol:</b> nombre del rol (obvio)</li>
+                	<li><b>Color de rol:</b> todos los miembros del rol cambiaran su color de apodo al asignado.</li>
+                	<li><b>Mostrar los miembros...:</b> muestra (o no) en la barra de usuarios una categoría para indicar los miembros conectados que forman parte del rol.</li>
+                	<li><b>Permitir que cualquiera...:</b> cambia la posibilidad de usar @NOMBRE-DE-ROL para etiquetar a todos los integrantes del rol mencionado.</li>
+                </ol>
+
+                <center><img src="../assets/img/blog/discord/roles2.png" class="img-fluid" alt=""></center><br>
+
+                <ol>
+                	<li><b>Administrador:</b> otorga todos los permisos en la lista, dándole la capacidad de ver y conectarse a cualquier canal.</li>
+                	<li><b>Registro de auditoria:</b> donde se guardan todos los cambios que se realicen en el servidor.</li>
+                	<li><b>Gestionar servidor:</b> le da acceso a "vista general".</li>
+                	<li><b>Gestionar roles:</b> tal como dice Discord, siguiendo las reglas de oro...</li>
+                	<blockquote>"Este permiso otorga añadir Roles para rangos inferiores, y editarlos respectivamente. Ten en cuenta que este Rol viene Segundo al de un administrador, y aún cuando puedes añadir, editar y asignar nuevos Roles a usuarios nuevos, no será posible editar roles para rangos superiores. Adicionalmente, puedes asignar permisos para Roles de rango inferior."</blockquote>
+                	<li><b>Gestionar canales:</b> permite modificar, eliminar o añadir canales.</li>
+                	<li>Expulsar y banear miembros se explica solo.</li>
+                </ol>
+
+                <center><img src="../assets/img/blog/discord/roles3.png" class="img-fluid" alt=""></center><br>
+
+                <ol>
+                	<li><b>Crear invitación:</b> para generar links (según el canal donde estemos) de invitación que los otros pueden usar para ingresar a nuestro servidor.</li>
+                	<li><b>Cambiar apodo:</b> al activar esta opción en un rol, el usuario sera capaz de cambiar su usuario por un apodo mas acorde. Mi nombre de usuario es "DarthStark" pero si entro a un servidor académico o laboral creo que seria mucho mejor cambiar a un apodo que pueda identificarme mejor como "Julio Díaz".</li>
+                	<li><b>Gestionar emojis:</b> para modificar los emojis propios del servidor (limitado a 50 a menos de tener mejoras).</li>
+                	<li><b>Gestionar webhooks:</b> quienes trabajen en desarrollo conocen sobre los Webhooks y la palabra Gestionar la conocemos desde primaria.</li>
+                	<li><b>Leer canales de texto y ver canales de voz, enviar mensajes:</b> obvio.</li>
+                	<li><b>Enviar mensajes de texto a voz:</b> Discord, mediante el comando /tts te permite cambiar un texto a voz para que todos los que se encuentren en el canal puedan escucharlo.</li>
+                </ol>
+
+                <center><img src="../assets/img/blog/discord/roles4.png" class="img-fluid" alt=""></center><br>
+
+                <ol>
+                	<li><b>Gestionar mensajes:</b> Útil para aquellos que moderan el servidor, dándoles el poder de eliminar mensajes enviados por otros usuarios.</li>
+                	<li><b>Insertar enlaces, adjuntar archivos:</b> permite (o no) lo indicado en su nombre.</li>
+                	<li><b>Leer historial de mensaje:</b> para permitir, a nuevos usuarios, leer información previa a su ingreso.</li>
+                	<li><b>Mencionar @everyone…:</b> funciona como etiqueta, permite mencionar a todos</li>
+                	<li><b>Usar emojis externos:</b> aunque este activo, Discord solo permite usar emojis externos cuando tienes Discord Nitro.</li>
+                </ol>
+
+                <p style="text-align: justify;">
+                	Para terminar con los roles, tenemos los permisos de voz que se muestran en la foto de abajo pero no necesitan texto de explicación.
+                </p>
+
+                <center><img src="../assets/img/blog/discord/roles5.png" class="img-fluid" alt=""></center><br>
+
+                <h4 id="canales">Creación de canales y categorías</h4>
+
+                <p style="text-align:justify">
+                	Otro punto tan importante como los roles, y dependiente de ellos, son las categorías donde podremos alojar un sin fin de canales de texto o de voz. No esta demás mencionar que los canales no pueden ser mixtos aunque puedes entrar a canales de texto mientras estés conectado a un canal de voz.
+                </p>
+
+                <p style="text-align:justify">
+                	Para crear una categoría o canal solo debemos hacer uso del popup mencionado cuando se habló sobre la <a href="discord.html#server_propio">creación del servidor propio</a> y seleccionar la opción de preferencia; existe una gran ventaja al crear categorías para alojar los canales, se trata de una opción de sincronización que permite al canal heredar todos los permisos de su categoría padre.
+                </p>
+
+                <p style="text-align:justify">
+                	Cuando creamos una nueva categoría o canal, es posible asignar permisos de visibilidad al deslizar la opción "🔒 Categoría privada" o "🔒 Canal privado" y de forma inmediata tendrás que seleccionar los roles que tendrán acceso a esta categoría/canal; la única diferencia entre crear canales y categorías es que el primero de ellos tiene un par de opciones para elegir, "Canal de texto" o "Canal de voz".
+                </p>
+
+                <p style="text-align:justify">
+                	Se que ha sido un post bastante largo pero intente resumir la información mas relevante en cuanto al manejo de Servidores Discord; cualquier duda o comentario pueden dejarla en el cajón de abajo 👇👇👇.
+                </p>
+
+
+              </div>
+              <!-- ======= Contenido ======= -->
+
+            </article>
+
+            <!-- ======= Autor ======= -->
+            <div class="autor"></div>
+            <!-- ======= Autor ======= -->
+
+          </div>
+
+          <div class="col-lg-4">
+
+          	<!-- ======= Sidebar ======= -->
+            <div class="sidebar">
+            	<!-- ======= Artículos recientes ======= -->
+              <div class="sidebar-item recent-posts">
+                <h3 class="sidebar-title">Artículos recientes</h3>
+                <div class="mt-3">
+                	<div class="recientes_side"></div>
+                </div>
+              </div>
+              <!-- ======= Artículos recientes ======= -->
+            </div>
+            <!-- ======= Sidebar ======= -->
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= Post ======= -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <div class="footer"></div>
+  <!-- ======= Footer ======= -->
+
+  <!-- ======= Flecha de inicio ======= -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- ======= Flecha de inicio ======= -->
+
+  <!-- ======= Carga de pagina ======= -->
+  <div id="preloader"></div>
+  <!-- ======= Carga de pagina ======= -->
+
+  <!-- ======= SCRIPTS ======= -->
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Archivo principal -->
+  <script src="../assets/js/main.js"></script>
+  <!-- ======= SCRIPTS ======= -->
+
+  <!-- ======= Includes ======= -->
+  <script>
+    $(document).ready(function () {
+      $('.head').load('../includes/head.html');
+      $('.header').load('../includes/header.html');
+      $('.autor').load('../includes/autor.html');
+      $('.recientes_side').load('../includes/recientes_side.html');
+      $('.footer').load('../includes/footer.html');
+    });
+  </script>
+  <!-- ======= Includes ======= -->
+</body>
+</html>
